@@ -41,7 +41,7 @@ static int queue_pop(void) {
     return child_id;
 }
 
-static void* mother_thread(void* arg) {
+static void* mother_thread(void*) {
     for (int day = 1; day <= num_cycles; day++) {
         // Mother starts the day only when allowed.
         sem_wait(&day_start_sem);
@@ -92,7 +92,7 @@ static void* mother_thread(void* arg) {
     return NULL;
 }
 
-static void* father_thread(void* arg) {
+static void* father_thread(void*) {
     for (int day = 1; day <= num_cycles; day++) {
         // Father starts the day asleep
         int processed = 0;
