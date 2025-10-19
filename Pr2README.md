@@ -19,4 +19,4 @@ Observations:
   
 - Problem 2:
   
-- Problem 3: Worker pools + blocking queues avoid spin; arrivals gated by barrier; plane takes off when seated_count == P.
+- Problem 3: The worker pools and blocking queues avoid spin; arrivals are gated by the barrier; the plane takes off when seated_count is equal to P.
