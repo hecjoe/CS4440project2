@@ -12,13 +12,11 @@ Build:
   make
 
 Run:
-  ./producer_consumer <buffer_capacity> <total_chars> [fast]
-  ./mh <cycles>
-  ./airline <P> <B> <S> <F>
+ADD RUN COMMANDS AND PARAMETERS
 
 Observations:
 - Problem 1:
   
 - Problem 2:
   
-- Problem 3: 
+- Problem 3: Worker pools + blocking queues avoid spin; arrivals gated by barrier; plane takes off when seated_count == P.
