@@ -15,7 +15,7 @@ Run:
 ADD RUN COMMANDS AND PARAMETERS
 
 Observations:
-- Problem 1:
+- Problem 1: The control program initializes buffer and synchronization variables, creates and terminates producer and consumer threads after processing all items. The producer generates characters into the buffer, and the consumer retrieves and prints them. Semaphores manage buffer states and synchronization, ensuring balanced production and consumption.
   
 - Problem 2: Task order is strictly adhered to by loop structures and semapahores, which ensures children aren't given tasks out of sequence.
 By utilizing a queue, the Father thread processes children in the exact order they were bathed by the Mother thread. 
