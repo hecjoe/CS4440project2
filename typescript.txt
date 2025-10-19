@@ -1,1 +1,293 @@
+Script started on 2025-10-19 00:22:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="196" LINES="48"]
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ exit./mh 31
+[?2004l
+This is day #1 of a day in the life of Mother Hubbard.
+Mother is waking up to take care of the children.
+Child #1 is being woken up.
+Child #2 is being woken up.
+Child #3 is being woken up.
+Child #4 is being woken up.
+Child #5 is being woken up.
+Child #6 is being woken up.
+Child #7 is being woken up.
+Child #8 is being woken up.
+Child #9 is being woken up.
+Child #10 is being woken up.
+Child #11 is being woken up.
+Child #12 is being woken up.
+Child #1 is being fed breakfast.
+Child #2 is being fed breakfast.
+Child #3 is being fed breakfast.
+Child #4 is being fed breakfast.
+Child #5 is being fed breakfast.
+Child #6 is being fed breakfast.
+Child #7 is being fed breakfast.
+Child #8 is being fed breakfast.
+Child #9 is being fed breakfast.
+Child #10 is being fed breakfast.
+Child #11 is being fed breakfast.
+Child #12 is being fed breakfast.
+Child #1 is being sent to school.
+Child #2 is being sent to school.
+Child #3 is being sent to school.
+Child #4 is being sent to school.
+Child #5 is being sent to school.
+Child #6 is being sent to school.
+Child #7 is being sent to school.
+Child #8 is being sent to school.
+Child #9 is being sent to school.
+Child #10 is being sent to school.
+Child #11 is being sent to school.
+Child #12 is being sent to school.
+Child #1 is being given dinner.
+Child #2 is being given dinner.
+Child #3 is being given dinner.
+Child #4 is being given dinner.
+Child #5 is being given dinner.
+Child #6 is being given dinner.
+Child #7 is being given dinner.
+Child #8 is being given dinner.
+Child #9 is being given dinner.
+Child #10 is being given dinner.
+Child #11 is being given dinner.
+Child #12 is being given dinner.
+Child #1 is being given a bath.
+Child #2 is being given a bath.
+Father is waking up to help with the children.
+Child #1 is being read a book.
+Child #3 is being given a bath.
+Child #1 is being tucked in bed.
+Child #4 is being given a bath.
+Child #2 is being read a book.
+Child #5 is being given a bath.
+Child #2 is being tucked in bed.
+Child #6 is being given a bath.
+Child #3 is being read a book.
+Child #7 is being given a bath.
+Child #3 is being tucked in bed.
+Child #4 is being read a book.
+Child #8 is being given a bath.
+Child #9 is being given a bath.
+Child #10 is being given a bath.
+Child #4 is being tucked in bed.
+Child #11 is being given a bath.
+Child #5 is being read a book.
+Child #12 is being given a bath.
+Child #5 is being tucked in bed.
+Mother is taking a nap break.
+Child #6 is being read a book.
+Child #6 is being tucked in bed.
+Child #7 is being read a book.
+Child #7 is being tucked in bed.
+Child #8 is being read a book.
+Child #8 is being tucked in bed.
+Child #9 is being read a book.
+Child #9 is being tucked in bed.
+Child #10 is being read a book.
+Child #10 is being tucked in bed.
+Child #11 is being read a book.
+Child #11 is being tucked in bed.
+Child #12 is being read a book.
+Child #12 is being tucked in bed.
+This is the end of day #1 of a day in the life of Mother Hubbard.
+Father is going to sleep and waking up Mother to take care of the children.
+Finished after 1 day(s).
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ ./mh 1[K2
+[?2004l
+This is day #1 of a day in the life of Mother Hubbard.
+Mother is waking up to take care of the children.
+Child #1 is being woken up.
+Child #2 is being woken up.
+Child #3 is being woken up.
+Child #4 is being woken up.
+Child #5 is being woken up.
+Child #6 is being woken up.
+Child #7 is being woken up.
+Child #8 is being woken up.
+Child #9 is being woken up.
+Child #10 is being woken up.
+Child #11 is being woken up.
+Child #12 is being woken up.
+Child #1 is being fed breakfast.
+Child #2 is being fed breakfast.
+Child #3 is being fed breakfast.
+Child #4 is being fed breakfast.
+Child #5 is being fed breakfast.
+Child #6 is being fed breakfast.
+Child #7 is being fed breakfast.
+Child #8 is being fed breakfast.
+Child #9 is being fed breakfast.
+Child #10 is being fed breakfast.
+Child #11 is being fed breakfast.
+Child #12 is being fed breakfast.
+Child #1 is being sent to school.
+Child #2 is being sent to school.
+Child #3 is being sent to school.
+Child #4 is being sent to school.
+Child #5 is being sent to school.
+Child #6 is being sent to school.
+Child #7 is being sent to school.
+Child #8 is being sent to school.
+Child #9 is being sent to school.
+Child #10 is being sent to school.
+Child #11 is being sent to school.
+Child #12 is being sent to school.
+Child #1 is being given dinner.
+Child #2 is being given dinner.
+Child #3 is being given dinner.
+Child #4 is being given dinner.
+Child #5 is being given dinner.
+Child #6 is being given dinner.
+Child #7 is being given dinner.
+Child #8 is being given dinner.
+Child #9 is being given dinner.
+Child #10 is being given dinner.
+Child #11 is being given dinner.
+Child #12 is being given dinner.
+Child #1 is being given a bath.
+Child #2 is being given a bath.
+Father is waking up to help with the children.
+Child #1 is being read a book.
+Child #3 is being given a bath.
+Child #1 is being tucked in bed.
+Child #4 is being given a bath.
+Child #2 is being read a book.
+Child #5 is being given a bath.
+Child #2 is being tucked in bed.
+Child #6 is being given a bath.
+Child #3 is being read a book.
+Child #7 is being given a bath.
+Child #3 is being tucked in bed.
+Child #8 is being given a bath.
+Child #4 is being read a book.
+Child #9 is being given a bath.
+Child #4 is being tucked in bed.
+Child #10 is being given a bath.
+Child #5 is being read a book.
+Child #11 is being given a bath.
+Child #5 is being tucked in bed.
+Child #12 is being given a bath.
+Child #6 is being read a book.
+Mother is taking a nap break.
+Child #6 is being tucked in bed.
+Child #7 is being read a book.
+Child #7 is being tucked in bed.
+Child #8 is being read a book.
+Child #8 is being tucked in bed.
+Child #9 is being read a book.
+Child #9 is being tucked in bed.
+Child #10 is being read a book.
+Child #10 is being tucked in bed.
+Child #11 is being read a book.
+Child #11 is being tucked in bed.
+Child #12 is being read a book.
+Child #12 is being tucked in bed.
+This is the end of day #1 of a day in the life of Mother Hubbard.
+Father is going to sleep and waking up Mother to take care of the children.
+This is day #2 of a day in the life of Mother Hubbard.
+Mother is waking up to take care of the children.
+Child #1 is being woken up.
+Child #2 is being woken up.
+Child #3 is being woken up.
+Child #4 is being woken up.
+Child #5 is being woken up.
+Child #6 is being woken up.
+Child #7 is being woken up.
+Child #8 is being woken up.
+Child #9 is being woken up.
+Child #10 is being woken up.
+Child #11 is being woken up.
+Child #12 is being woken up.
+Child #1 is being fed breakfast.
+Child #2 is being fed breakfast.
+Child #3 is being fed breakfast.
+Child #4 is being fed breakfast.
+Child #5 is being fed breakfast.
+Child #6 is being fed breakfast.
+Child #7 is being fed breakfast.
+Child #8 is being fed breakfast.
+Child #9 is being fed breakfast.
+Child #10 is being fed breakfast.
+Child #11 is being fed breakfast.
+Child #12 is being fed breakfast.
+Child #1 is being sent to school.
+Child #2 is being sent to school.
+Child #3 is being sent to school.
+Child #4 is being sent to school.
+Child #5 is being sent to school.
+Child #6 is being sent to school.
+Child #7 is being sent to school.
+Child #8 is being sent to school.
+Child #9 is being sent to school.
+Child #10 is being sent to school.
+Child #11 is being sent to school.
+Child #12 is being sent to school.
+Child #1 is being given dinner.
+Child #2 is being given dinner.
+Child #3 is being given dinner.
+Child #4 is being given dinner.
+Child #5 is being given dinner.
+Child #6 is being given dinner.
+Child #7 is being given dinner.
+Child #8 is being given dinner.
+Child #9 is being given dinner.
+Child #10 is being given dinner.
+Child #11 is being given dinner.
+Child #12 is being given dinner.
+Child #1 is being given a bath.
+Child #2 is being given a bath.
+Father is waking up to help with the children.
+Child #1 is being read a book.
+Child #3 is being given a bath.
+Child #1 is being tucked in bed.
+Child #4 is being given a bath.
+Child #2 is being read a book.
+Child #5 is being given a bath.
+Child #2 is being tucked in bed.
+Child #6 is being given a bath.
+Child #3 is being read a book.
+Child #7 is being given a bath.
+Child #3 is being tucked in bed.
+Child #8 is being given a bath.
+Child #4 is being read a book.
+Child #9 is being given a bath.
+Child #4 is being tucked in bed.
+Child #10 is being given a bath.
+Child #5 is being read a book.
+Child #11 is being given a bath.
+Child #5 is being tucked in bed.
+Child #12 is being given a bath.
+Child #6 is being read a book.
+Mother is taking a nap break.
+Child #6 is being tucked in bed.
+Child #7 is being read a book.
+Child #7 is being tucked in bed.
+Child #8 is being read a book.
+Child #8 is being tucked in bed.
+Child #9 is being read a book.
+Child #9 is being tucked in bed.
+Child #10 is being read a book.
+Child #10 is being tucked in bed.
+Child #11 is being read a book.
+Child #11 is being tucked in bed.
+Child #12 is being read a book.
+Child #12 is being tucked in bed.
+This is the end of day #2 of a day in the life of Mother Hubbard.
+Father is going to sleep and waking up Mother to take care of the children.
+Finished after 2 day(s).
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ ./mh 2[K[K
+[?2004l
+Usage: ./mh <num_cycles>
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ ./mh abc
+[?2004l
+Error: Number of cycles must be positive.
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ ./mh abc[K[K[K0
+[?2004l
+Error: Number of cycles must be positive.
+[?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-10-19 00:23:14-07:00 [COMMAND_EXIT_CODE="1"]
+
 
