@@ -113,7 +113,7 @@ void *producer(void *arg)
         sem_post(&full);
 
         // Slows production to better visualize buffer alternation
-        usleep(800000);
+        usleep(200000);
     }
     return NULL;
 }
@@ -159,7 +159,7 @@ void *consumer(void *arg)
         sem_post(&empty);
 
         // Slows consumption to better visualize buffer alternation
-        usleep(10000);
+        usleep(200000);
     }
     return NULL;
 }
