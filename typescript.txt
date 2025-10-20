@@ -1382,3 +1382,14 @@ All passenger threads completed. Exiting.
 exit
 
 Script done on 2025-10-20 03:14:26+00:00 [COMMAND_EXIT_CODE="0"]
+
+Script started on 2025-10-20 06:00:37+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="106" LINES="34"]
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./airline   #error handling
+[?2004l
+Usage: ./airline <P passengers> <B handlers> <S screeners> <F attendants>
+Example: ./airline 100 3 5 2
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-10-20 06:00:51+00:00 [COMMAND_EXIT_CODE="2"]
