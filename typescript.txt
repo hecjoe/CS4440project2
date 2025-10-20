@@ -293,58 +293,65 @@ Script done on 2025-10-19 00:23:14-07:00 [COMMAND_EXIT_CODE="1"]
 
 
 
-[1m[7m%[27m[1m[0m                                                                                                                         
- 
-]7;file://Emilys-MacBook-Pro.local/Users/emilyweimer/Desktop/cs4440
-[0m[27m[24m[Jemilyweimer@Emilys-MacBook-Pro cs4440 % [K[?2004h./airline 10 2 2 2 [19Dgcc   -Wall -Wextra -O2 -pthread -o airline airline.c[53D./airline 10 2 2 2                                   [34D[18D                  [18D./airline 10 2 2 2    0 3 5 2[?2004l
-
+
+Script started on 2025-10-20 03:14:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ exit./airline 100 3 5 2
+[?2004l
 Passenger #1 arrived at the terminal.
-Passenger #5 arrived at the terminal.
-Passenger #2 arrived at the terminal.
-Passenger #3 arrived at the terminal.
-Passenger #7 arrived at the terminal.
-Passenger #4 arrived at the terminal.
-Passenger #6 arrived at the terminal.
-Passenger #8 arrived at the terminal.
-Passenger #9 arrived at the terminal.
 Passenger #10 arrived at the terminal.
-Passenger #11 arrived at the terminal.
 Passenger #12 arrived at the terminal.
 Passenger #13 arrived at the terminal.
+Passenger #8 arrived at the terminal.
+Passenger #9 arrived at the terminal.
+Passenger #11 arrived at the terminal.
 Passenger #14 arrived at the terminal.
-Passenger #15 arrived at the terminal.
 Passenger #16 arrived at the terminal.
-Passenger #17 arrived at the terminal.
+Passenger #5 arrived at the terminal.
+Passenger #4 arrived at the terminal.
+Passenger #15 arrived at the terminal.
+Passenger #3 arrived at the terminal.
 Passenger #18 arrived at the terminal.
 Passenger #19 arrived at the terminal.
-Passenger #20 arrived at the terminal.
-Passenger #21 arrived at the terminal.
 Passenger #22 arrived at the terminal.
-Passenger #23 arrived at the terminal.
-Passenger #24 arrived at the terminal.
 Passenger #25 arrived at the terminal.
-Passenger #26 arrived at the terminal.
-Passenger #27 arrived at the terminal.
-Passenger #29 arrived at the terminal.
 Passenger #28 arrived at the terminal.
-Passenger #30 arrived at the terminal.
-Passenger #31 arrived at the terminal.
-Passenger #32 arrived at the terminal.
 Passenger #33 arrived at the terminal.
 Passenger #34 arrived at the terminal.
-Passenger #35 arrived at the terminal.
-Passenger #36 arrived at the terminal.
-Passenger #37 arrived at the terminal.
-Passenger #38 arrived at the terminal.
-Passenger #39 arrived at the terminal.
-Passenger #40 arrived at the terminal.
-Passenger #41 arrived at the terminal.
-Passenger #42 arrived at the terminal.
+Passenger #17 arrived at the terminal.
+Passenger #20 arrived at the terminal.
+Passenger #21 arrived at the terminal.
+Passenger #23 arrived at the terminal.
+Passenger #24 arrived at the terminal.
+Passenger #2 arrived at the terminal.
+Passenger #6 arrived at the terminal.
+Passenger #7 arrived at the terminal.
 Passenger #43 arrived at the terminal.
+Passenger #56 arrived at the terminal.
+Passenger #57 arrived at the terminal.
+Passenger #60 arrived at the terminal.
+Passenger #63 arrived at the terminal.
+Passenger #67 arrived at the terminal.
+Passenger #71 arrived at the terminal.
+Passenger #77 arrived at the terminal.
+Passenger #78 arrived at the terminal.
+Passenger #82 arrived at the terminal.
+Passenger #88 arrived at the terminal.
+Passenger #31 arrived at the terminal.
+Passenger #26 arrived at the terminal.
+Passenger #30 arrived at the terminal.
+Passenger #32 arrived at the terminal.
+Passenger #27 arrived at the terminal.
+Passenger #29 arrived at the terminal.
+Passenger #72 arrived at the terminal.
+Passenger #36 arrived at the terminal.
+Passenger #35 arrived at the terminal.
+Passenger #37 arrived at the terminal.
 Passenger #44 arrived at the terminal.
 Passenger #45 arrived at the terminal.
-Passenger #46 arrived at the terminal.
 Passenger #47 arrived at the terminal.
+Passenger #46 arrived at the terminal.
+Passenger #42 arrived at the terminal.
+Passenger #89 arrived at the terminal.
 Passenger #48 arrived at the terminal.
 Passenger #49 arrived at the terminal.
 Passenger #50 arrived at the terminal.
@@ -353,39 +360,28 @@ Passenger #52 arrived at the terminal.
 Passenger #53 arrived at the terminal.
 Passenger #54 arrived at the terminal.
 Passenger #55 arrived at the terminal.
-Passenger #56 arrived at the terminal.
-Passenger #57 arrived at the terminal.
 Passenger #58 arrived at the terminal.
 Passenger #59 arrived at the terminal.
-Passenger #60 arrived at the terminal.
 Passenger #61 arrived at the terminal.
 Passenger #62 arrived at the terminal.
-Passenger #63 arrived at the terminal.
 Passenger #64 arrived at the terminal.
 Passenger #65 arrived at the terminal.
 Passenger #66 arrived at the terminal.
-Passenger #67 arrived at the terminal.
 Passenger #68 arrived at the terminal.
 Passenger #69 arrived at the terminal.
 Passenger #70 arrived at the terminal.
-Passenger #71 arrived at the terminal.
-Passenger #72 arrived at the terminal.
 Passenger #73 arrived at the terminal.
 Passenger #74 arrived at the terminal.
 Passenger #75 arrived at the terminal.
 Passenger #76 arrived at the terminal.
-Passenger #77 arrived at the terminal.
-Passenger #78 arrived at the terminal.
 Passenger #79 arrived at the terminal.
 Passenger #80 arrived at the terminal.
 Passenger #81 arrived at the terminal.
-Passenger #82 arrived at the terminal.
 Passenger #83 arrived at the terminal.
 Passenger #84 arrived at the terminal.
+Passenger #85 arrived at the terminal.
 Passenger #86 arrived at the terminal.
 Passenger #87 arrived at the terminal.
-Passenger #88 arrived at the terminal.
-Passenger #89 arrived at the terminal.
 Passenger #90 arrived at the terminal.
 Passenger #91 arrived at the terminal.
 Passenger #92 arrived at the terminal.
@@ -393,724 +389,718 @@ Passenger #93 arrived at the terminal.
 Passenger #94 arrived at the terminal.
 Passenger #95 arrived at the terminal.
 Passenger #96 arrived at the terminal.
-Passenger #85 arrived at the terminal.
 Passenger #97 arrived at the terminal.
 Passenger #98 arrived at the terminal.
 Passenger #99 arrived at the terminal.
 Passenger #100 arrived at the terminal.
-Passenger #100 is waiting at baggage processing for a handler.
-Passenger #5 is waiting at baggage processing for a handler.
-Passenger #2 is waiting at baggage processing for a handler.
-Passenger #3 is waiting at baggage processing for a handler.
-Passenger #7 is waiting at baggage processing for a handler.
-Passenger #6 is waiting at baggage processing for a handler.
+Passenger #41 arrived at the terminal.
+Passenger #40 arrived at the terminal.
+Passenger #39 arrived at the terminal.
+Passenger #38 arrived at the terminal.
+Passenger #13 is waiting at baggage processing for a handler.
+Passenger #8 is waiting at baggage processing for a handler.
 Passenger #9 is waiting at baggage processing for a handler.
 Passenger #11 is waiting at baggage processing for a handler.
-Passenger #12 is waiting at baggage processing for a handler.
 Passenger #14 is waiting at baggage processing for a handler.
 Passenger #16 is waiting at baggage processing for a handler.
-Passenger #18 is waiting at baggage processing for a handler.
-Passenger #19 is waiting at baggage processing for a handler.
-Passenger #21 is waiting at baggage processing for a handler.
-Passenger #23 is waiting at baggage processing for a handler.
-Passenger #25 is waiting at baggage processing for a handler.
-Passenger #27 is waiting at baggage processing for a handler.
-Passenger #28 is waiting at baggage processing for a handler.
-Passenger #31 is waiting at baggage processing for a handler.
-Passenger #32 is waiting at baggage processing for a handler.
-Passenger #33 is waiting at baggage processing for a handler.
-Passenger #35 is waiting at baggage processing for a handler.
+Passenger #5 is waiting at baggage processing for a handler.
+Passenger #4 is waiting at baggage processing for a handler.
 Passenger #36 is waiting at baggage processing for a handler.
+Passenger #35 is waiting at baggage processing for a handler.
 Passenger #37 is waiting at baggage processing for a handler.
-Passenger #38 is waiting at baggage processing for a handler.
-Passenger #39 is waiting at baggage processing for a handler.
-Passenger #40 is waiting at baggage processing for a handler.
-Passenger #41 is waiting at baggage processing for a handler.
-Passenger #42 is waiting at baggage processing for a handler.
-Passenger #43 is waiting at baggage processing for a handler.
-Passenger #44 is waiting at baggage processing for a handler.
-Passenger #45 is waiting at baggage processing for a handler.
-Passenger #46 is waiting at baggage processing for a handler.
-Passenger #47 is waiting at baggage processing for a handler.
-Passenger #48 is waiting at baggage processing for a handler.
-Passenger #49 is waiting at baggage processing for a handler.
-Passenger #50 is waiting at baggage processing for a handler.
-Passenger #51 is waiting at baggage processing for a handler.
-Passenger #52 is waiting at baggage processing for a handler.
-Passenger #53 is waiting at baggage processing for a handler.
-Passenger #54 is waiting at baggage processing for a handler.
-Passenger #55 is waiting at baggage processing for a handler.
+Passenger #96 is waiting at baggage processing for a handler.
+Passenger #84 is waiting at baggage processing for a handler.
+Passenger #69 is waiting at baggage processing for a handler.
+Passenger #74 is waiting at baggage processing for a handler.
+Passenger #79 is waiting at baggage processing for a handler.
+Passenger #92 is waiting at baggage processing for a handler.
+Passenger #94 is waiting at baggage processing for a handler.
 Passenger #56 is waiting at baggage processing for a handler.
 Passenger #57 is waiting at baggage processing for a handler.
+Passenger #3 is waiting at baggage processing for a handler.
+Passenger #21 is waiting at baggage processing for a handler.
+Passenger #1 is waiting at baggage processing for a handler.
+Passenger #95 is waiting at baggage processing for a handler.
+Passenger #93 is waiting at baggage processing for a handler.
+Passenger #23 is waiting at baggage processing for a handler.
+Passenger #99 is waiting at baggage processing for a handler.
+Passenger #24 is waiting at baggage processing for a handler.
 Passenger #58 is waiting at baggage processing for a handler.
-Passenger #59 is waiting at baggage processing for a handler.
-Passenger #60 is waiting at baggage processing for a handler.
-Passenger #61 is waiting at baggage processing for a handler.
-Passenger #62 is waiting at baggage processing for a handler.
-Passenger #63 is waiting at baggage processing for a handler.
-Passenger #65 is waiting at baggage processing for a handler.
-Passenger #64 is waiting at baggage processing for a handler.
-Passenger #66 is waiting at baggage processing for a handler.
-Passenger #68 is waiting at baggage processing for a handler.
-Passenger #67 is waiting at baggage processing for a handler.
-Passenger #69 is waiting at baggage processing for a handler.
-Passenger #70 is waiting at baggage processing for a handler.
-Passenger #71 is waiting at baggage processing for a handler.
-Passenger #72 is waiting at baggage processing for a handler.
-Passenger #73 is waiting at baggage processing for a handler.
-Passenger #74 is waiting at baggage processing for a handler.
-Passenger #75 is waiting at baggage processing for a handler.
-Passenger #76 is waiting at baggage processing for a handler.
+Passenger #2 is waiting at baggage processing for a handler.
+Passenger #6 is waiting at baggage processing for a handler.
 Passenger #77 is waiting at baggage processing for a handler.
+Passenger #44 is waiting at baggage processing for a handler.
+Passenger #98 is waiting at baggage processing for a handler.
+Passenger #7 is waiting at baggage processing for a handler.
 Passenger #78 is waiting at baggage processing for a handler.
-Passenger #79 is waiting at baggage processing for a handler.
+Passenger #64 is waiting at baggage processing for a handler.
+Passenger #34 is waiting at baggage processing for a handler.
+Passenger #82 is waiting at baggage processing for a handler.
+Passenger #88 is waiting at baggage processing for a handler.
+Passenger #91 is waiting at baggage processing for a handler.
+Passenger #55 is waiting at baggage processing for a handler.
+Passenger #43 is waiting at baggage processing for a handler.
+Passenger #89 is waiting at baggage processing for a handler.
 Passenger #80 is waiting at baggage processing for a handler.
 Passenger #81 is waiting at baggage processing for a handler.
-Passenger #82 is waiting at baggage processing for a handler.
+Passenger #66 is waiting at baggage processing for a handler.
+Passenger #45 is waiting at baggage processing for a handler.
 Passenger #83 is waiting at baggage processing for a handler.
-Passenger #84 is waiting at baggage processing for a handler.
-Passenger #86 is waiting at baggage processing for a handler.
+Passenger #68 is waiting at baggage processing for a handler.
+Passenger #60 is waiting at baggage processing for a handler.
 Passenger #87 is waiting at baggage processing for a handler.
-Passenger #88 is waiting at baggage processing for a handler.
-Passenger #89 is waiting at baggage processing for a handler.
-Passenger #90 is waiting at baggage processing for a handler.
-Passenger #91 is waiting at baggage processing for a handler.
-Passenger #92 is waiting at baggage processing for a handler.
-Passenger #93 is waiting at baggage processing for a handler.
-Passenger #94 is waiting at baggage processing for a handler.
-Passenger #95 is waiting at baggage processing for a handler.
-Passenger #96 is waiting at baggage processing for a handler.
-Passenger #85 is waiting at baggage processing for a handler.
 Passenger #97 is waiting at baggage processing for a handler.
-Passenger #98 is waiting at baggage processing for a handler.
-Passenger #99 is waiting at baggage processing for a handler.
-Passenger #1 is waiting at baggage processing for a handler.
-Passenger #100 is being processed by a baggage handler.
-Passenger #5 is being processed by a baggage handler.
-Passenger #2 is being processed by a baggage handler.
-Passenger #4 is waiting at baggage processing for a handler.
-Passenger #8 is waiting at baggage processing for a handler.
-Passenger #10 is waiting at baggage processing for a handler.
-Passenger #13 is waiting at baggage processing for a handler.
-Passenger #15 is waiting at baggage processing for a handler.
-Passenger #17 is waiting at baggage processing for a handler.
-Passenger #20 is waiting at baggage processing for a handler.
-Passenger #22 is waiting at baggage processing for a handler.
-Passenger #24 is waiting at baggage processing for a handler.
-Passenger #6 is being processed by a baggage handler.
-Passenger #5 is waiting to be screened by a screener.
-Passenger #100 is waiting to be screened by a screener.
-Passenger #2 is waiting to be screened by a screener.
-Passenger #29 is waiting at baggage processing for a handler.
-Passenger #34 is waiting at baggage processing for a handler.
-Passenger #3 is being processed by a baggage handler.
-Passenger #100 is being screened by a security screener.
-Passenger #7 is being processed by a baggage handler.
+Passenger #63 is waiting at baggage processing for a handler.
+Passenger #65 is waiting at baggage processing for a handler.
+Passenger #67 is waiting at baggage processing for a handler.
+Passenger #47 is waiting at baggage processing for a handler.
+Passenger #54 is waiting at baggage processing for a handler.
+Passenger #71 is waiting at baggage processing for a handler.
+Passenger #76 is waiting at baggage processing for a handler.
 Passenger #26 is waiting at baggage processing for a handler.
-Passenger #30 is waiting at baggage processing for a handler.
-Passenger #2 is being screened by a security screener.
-Passenger #5 is being screened by a security screener.
+Passenger #53 is waiting at baggage processing for a handler.
+Passenger #90 is waiting at baggage processing for a handler.
+Passenger #27 is waiting at baggage processing for a handler.
+Passenger #100 is waiting at baggage processing for a handler.
+Passenger #29 is waiting at baggage processing for a handler.
+Passenger #49 is waiting at baggage processing for a handler.
+Passenger #72 is waiting at baggage processing for a handler.
+Passenger #75 is waiting at baggage processing for a handler.
+Passenger #85 is waiting at baggage processing for a handler.
+Passenger #13 is being processed by a baggage handler.
+Passenger #70 is waiting at baggage processing for a handler.
+Passenger #8 is being processed by a baggage handler.
+Passenger #51 is waiting at baggage processing for a handler.
+Passenger #59 is waiting at baggage processing for a handler.
 Passenger #9 is being processed by a baggage handler.
-Passenger #6 is waiting to be screened by a screener.
-Passenger #6 is being screened by a security screener.
+Passenger #48 is waiting at baggage processing for a handler.
+Passenger #32 is waiting at baggage processing for a handler.
 Passenger #11 is being processed by a baggage handler.
-Passenger #12 is being processed by a baggage handler.
-Passenger #3 is waiting to be screened by a screener.
-Passenger #7 is waiting to be screened by a screener.
-Passenger #100 is waiting to board the plane by an attendant.
-Passenger #3 is being screened by a security screener.
-Passenger #100 is being seated by a flight attendant.
-Passenger #7 is being screened by a security screener.
-Passenger #5 is waiting to board the plane by an attendant.
-Passenger #2 is waiting to board the plane by an attendant.
-Passenger #5 is being seated by a flight attendant.
-Passenger #14 is being processed by a baggage handler.
-Passenger #9 is waiting to be screened by a screener.
-Passenger #6 is waiting to board the plane by an attendant.
-Passenger #9 is being screened by a security screener.
+Passenger #8 is waiting to be screened by a screener.
+Passenger #13 is waiting to be screened by a screener.
+Passenger #73 is waiting at baggage processing for a handler.
+Passenger #46 is waiting at baggage processing for a handler.
+Passenger #8 is being screened by a security screener.
+Passenger #13 is being screened by a security screener.
+Passenger #20 is waiting at baggage processing for a handler.
+Passenger #18 is waiting at baggage processing for a handler.
+Passenger #22 is waiting at baggage processing for a handler.
+Passenger #33 is waiting at baggage processing for a handler.
 Passenger #16 is being processed by a baggage handler.
+Passenger #9 is waiting to be screened by a screener.
+Passenger #52 is waiting at baggage processing for a handler.
+Passenger #12 is waiting at baggage processing for a handler.
+Passenger #5 is being processed by a baggage handler.
 Passenger #11 is waiting to be screened by a screener.
-Passenger #18 is being processed by a baggage handler.
-Passenger #12 is waiting to be screened by a screener.
+Passenger #8 is waiting to board the plane by an attendant.
+Passenger #61 is waiting at baggage processing for a handler.
 Passenger #11 is being screened by a security screener.
-Passenger #12 is being screened by a security screener.
-Passenger #100 has been seated and relaxes.
-Passenger #19 is being processed by a baggage handler.
-Passenger #7 is waiting to board the plane by an attendant.
-Passenger #3 is waiting to board the plane by an attendant.
-Passenger #14 is waiting to be screened by a screener.
-Passenger #2 is being seated by a flight attendant.
-Passenger #5 has been seated and relaxes.
-Passenger #6 is being seated by a flight attendant.
-Passenger #14 is being screened by a security screener.
-Passenger #9 is waiting to board the plane by an attendant.
-Passenger #21 is being processed by a baggage handler.
+Passenger #4 is being processed by a baggage handler.
 Passenger #16 is waiting to be screened by a screener.
-Passenger #12 is waiting to board the plane by an attendant.
-Passenger #23 is being processed by a baggage handler.
-Passenger #11 is waiting to board the plane by an attendant.
-Passenger #18 is waiting to be screened by a screener.
+Passenger #13 is waiting to board the plane by an attendant.
+Passenger #62 is waiting at baggage processing for a handler.
 Passenger #16 is being screened by a security screener.
-Passenger #25 is being processed by a baggage handler.
-Passenger #19 is waiting to be screened by a screener.
-Passenger #18 is being screened by a security screener.
-Passenger #19 is being screened by a security screener.
-Passenger #6 has been seated and relaxes.
-Passenger #7 is being seated by a flight attendant.
-Passenger #2 has been seated and relaxes.
-Passenger #3 is being seated by a flight attendant.
+Passenger #17 is waiting at baggage processing for a handler.
+Passenger #36 is being processed by a baggage handler.
+Passenger #5 is waiting to be screened by a screener.
+Passenger #42 is waiting at baggage processing for a handler.
+Passenger #25 is waiting at baggage processing for a handler.
+Passenger #5 is being screened by a security screener.
+Passenger #28 is waiting at baggage processing for a handler.
+Passenger #40 is waiting at baggage processing for a handler.
+Passenger #19 is waiting at baggage processing for a handler.
+Passenger #37 is being processed by a baggage handler.
+Passenger #36 is waiting to be screened by a screener.
+Passenger #36 is being screened by a security screener.
+Passenger #39 is waiting at baggage processing for a handler.
+Passenger #38 is waiting at baggage processing for a handler.
+Passenger #86 is waiting at baggage processing for a handler.
+Passenger #31 is waiting at baggage processing for a handler.
+Passenger #30 is waiting at baggage processing for a handler.
+Passenger #14 is being processed by a baggage handler.
+Passenger #9 is being screened by a security screener.
+Passenger #8 is being seated by a flight attendant.
+Passenger #10 is waiting at baggage processing for a handler.
+Passenger #13 is being seated by a flight attendant.
+Passenger #15 is waiting at baggage processing for a handler.
+Passenger #35 is being processed by a baggage handler.
+Passenger #96 is being processed by a baggage handler.
+Passenger #5 is waiting to board the plane by an attendant.
+Passenger #11 is waiting to board the plane by an attendant.
+Passenger #4 is waiting to be screened by a screener.
+Passenger #36 is waiting to board the plane by an attendant.
+Passenger #37 is waiting to be screened by a screener.
+Passenger #16 is waiting to board the plane by an attendant.
+Passenger #37 is being screened by a security screener.
+Passenger #4 is being screened by a security screener.
+Passenger #41 is waiting at baggage processing for a handler.
+Passenger #84 is being processed by a baggage handler.
+Passenger #9 is waiting to board the plane by an attendant.
+Passenger #50 is waiting at baggage processing for a handler.
+Passenger #13 has been seated and relaxes.
+Passenger #5 is being seated by a flight attendant.
+Passenger #8 has been seated and relaxes.
+Passenger #11 is being seated by a flight attendant.
+Passenger #74 is being processed by a baggage handler.
+Passenger #79 is being processed by a baggage handler.
+Passenger #35 is waiting to be screened by a screener.
+Passenger #14 is waiting to be screened by a screener.
+Passenger #4 is waiting to board the plane by an attendant.
+Passenger #35 is being screened by a security screener.
+Passenger #96 is waiting to be screened by a screener.
+Passenger #37 is waiting to board the plane by an attendant.
+Passenger #84 is waiting to be screened by a screener.
+Passenger #14 is being screened by a security screener.
+Passenger #11 has been seated and relaxes.
+Passenger #36 is being seated by a flight attendant.
+Passenger #96 is being screened by a security screener.
+Passenger #5 has been seated and relaxes.
+Passenger #16 is being seated by a flight attendant.
+Passenger #84 is being screened by a security screener.
+Passenger #69 is being processed by a baggage handler.
+Passenger #79 is waiting to be screened by a screener.
+Passenger #79 is being screened by a security screener.
+Passenger #36 has been seated and relaxes.
+Passenger #9 is being seated by a flight attendant.
 Passenger #14 is waiting to board the plane by an attendant.
-Passenger #27 is being processed by a baggage handler.
+Passenger #92 is being processed by a baggage handler.
+Passenger #94 is being processed by a baggage handler.
+Passenger #74 is waiting to be screened by a screener.
+Passenger #96 is waiting to board the plane by an attendant.
+Passenger #74 is being screened by a security screener.
+Passenger #56 is being processed by a baggage handler.
+Passenger #16 has been seated and relaxes.
+Passenger #4 is being seated by a flight attendant.
+Passenger #35 is waiting to board the plane by an attendant.
+Passenger #69 is waiting to be screened by a screener.
+Passenger #69 is being screened by a security screener.
+Passenger #57 is being processed by a baggage handler.
+Passenger #92 is waiting to be screened by a screener.
+Passenger #94 is waiting to be screened by a screener.
+Passenger #84 is waiting to board the plane by an attendant.
+Passenger #79 is waiting to board the plane by an attendant.
+Passenger #74 is waiting to board the plane by an attendant.
+Passenger #56 is waiting to be screened by a screener.
+Passenger #92 is being screened by a security screener.
+Passenger #94 is being screened by a security screener.
+Passenger #9 has been seated and relaxes.
+Passenger #37 is being seated by a flight attendant.
+Passenger #21 is being processed by a baggage handler.
+Passenger #56 is being screened by a security screener.
+Passenger #3 is being processed by a baggage handler.
+Passenger #4 has been seated and relaxes.
+Passenger #14 is being seated by a flight attendant.
+Passenger #1 is being processed by a baggage handler.
+Passenger #57 is waiting to be screened by a screener.
+Passenger #57 is being screened by a security screener.
+Passenger #69 is waiting to board the plane by an attendant.
+Passenger #95 is being processed by a baggage handler.
 Passenger #21 is waiting to be screened by a screener.
+Passenger #56 is waiting to board the plane by an attendant.
 Passenger #21 is being screened by a security screener.
-Passenger #28 is being processed by a baggage handler.
+Passenger #37 has been seated and relaxes.
+Passenger #96 is being seated by a flight attendant.
+Passenger #99 is being processed by a baggage handler.
+Passenger #95 is waiting to be screened by a screener.
+Passenger #94 is waiting to board the plane by an attendant.
+Passenger #92 is waiting to board the plane by an attendant.
+Passenger #57 is waiting to board the plane by an attendant.
+Passenger #3 is waiting to be screened by a screener.
+Passenger #95 is being screened by a security screener.
+Passenger #3 is being screened by a security screener.
+Passenger #21 is waiting to board the plane by an attendant.
+Passenger #93 is being processed by a baggage handler.
+Passenger #1 is waiting to be screened by a screener.
+Passenger #1 is being screened by a security screener.
+Passenger #23 is being processed by a baggage handler.
+Passenger #14 has been seated and relaxes.
+Passenger #35 is being seated by a flight attendant.
+Passenger #24 is being processed by a baggage handler.
+Passenger #96 has been seated and relaxes.
+Passenger #84 is being seated by a flight attendant.
+Passenger #3 is waiting to board the plane by an attendant.
+Passenger #58 is being processed by a baggage handler.
+Passenger #93 is waiting to be screened by a screener.
+Passenger #99 is waiting to be screened by a screener.
+Passenger #95 is waiting to board the plane by an attendant.
+Passenger #93 is being screened by a security screener.
+Passenger #99 is being screened by a security screener.
+Passenger #1 is waiting to board the plane by an attendant.
+Passenger #2 is being processed by a baggage handler.
 Passenger #23 is waiting to be screened by a screener.
 Passenger #23 is being screened by a security screener.
-Passenger #16 is waiting to board the plane by an attendant.
-Passenger #18 is waiting to board the plane by an attendant.
-Passenger #19 is waiting to board the plane by an attendant.
-Passenger #7 has been seated and relaxes.
-Passenger #25 is waiting to be screened by a screener.
-Passenger #9 is being seated by a flight attendant.
-Passenger #3 has been seated and relaxes.
-Passenger #31 is being processed by a baggage handler.
-Passenger #12 is being seated by a flight attendant.
-Passenger #25 is being screened by a security screener.
-Passenger #23 is waiting to board the plane by an attendant.
-Passenger #32 is being processed by a baggage handler.
-Passenger #33 is being processed by a baggage handler.
-Passenger #27 is waiting to be screened by a screener.
-Passenger #28 is waiting to be screened by a screener.
-Passenger #21 is waiting to board the plane by an attendant.
-Passenger #27 is being screened by a security screener.
-Passenger #9 has been seated and relaxes.
-Passenger #11 is being seated by a flight attendant.
-Passenger #12 has been seated and relaxes.
-Passenger #31 is waiting to be screened by a screener.
-Passenger #14 is being seated by a flight attendant.
-Passenger #28 is being screened by a security screener.
-Passenger #35 is being processed by a baggage handler.
-Passenger #31 is being screened by a security screener.
-Passenger #36 is being processed by a baggage handler.
-Passenger #25 is waiting to board the plane by an attendant.
-Passenger #32 is waiting to be screened by a screener.
-Passenger #37 is being processed by a baggage handler.
-Passenger #33 is waiting to be screened by a screener.
-Passenger #32 is being screened by a security screener.
-Passenger #33 is being screened by a security screener.
-Passenger #27 is waiting to board the plane by an attendant.
-Passenger #11 has been seated and relaxes.
-Passenger #16 is being seated by a flight attendant.
-Passenger #14 has been seated and relaxes.
-Passenger #18 is being seated by a flight attendant.
-Passenger #38 is being processed by a baggage handler.
-Passenger #28 is waiting to board the plane by an attendant.
-Passenger #35 is waiting to be screened by a screener.
-Passenger #31 is waiting to board the plane by an attendant.
-Passenger #35 is being screened by a security screener.
-Passenger #39 is being processed by a baggage handler.
-Passenger #36 is waiting to be screened by a screener.
-Passenger #40 is being processed by a baggage handler.
-Passenger #37 is waiting to be screened by a screener.
-Passenger #36 is being screened by a security screener.
-Passenger #32 is waiting to board the plane by an attendant.
-Passenger #33 is waiting to board the plane by an attendant.
-Passenger #37 is being screened by a security screener.
-Passenger #16 has been seated and relaxes.
-Passenger #19 is being seated by a flight attendant.
-Passenger #18 has been seated and relaxes.
-Passenger #23 is being seated by a flight attendant.
-Passenger #41 is being processed by a baggage handler.
-Passenger #38 is waiting to be screened by a screener.
-Passenger #38 is being screened by a security screener.
-Passenger #35 is waiting to board the plane by an attendant.
-Passenger #42 is being processed by a baggage handler.
-Passenger #36 is waiting to board the plane by an attendant.
-Passenger #43 is being processed by a baggage handler.
-Passenger #39 is waiting to be screened by a screener.
-Passenger #40 is waiting to be screened by a screener.
-Passenger #19 has been seated and relaxes.
-Passenger #21 is being seated by a flight attendant.
-Passenger #37 is waiting to board the plane by an attendant.
-Passenger #23 has been seated and relaxes.
-Passenger #44 is being processed by a baggage handler.
-Passenger #45 is being processed by a baggage handler.
-Passenger #41 is waiting to be screened by a screener.
-Passenger #42 is waiting to be screened by a screener.
-Passenger #43 is waiting to be screened by a screener.
-Passenger #39 is being screened by a security screener.
-Passenger #43 is being screened by a security screener.
-Passenger #25 is being seated by a flight attendant.
-Passenger #21 has been seated and relaxes.
-Passenger #40 is being screened by a security screener.
-Passenger #38 is waiting to board the plane by an attendant.
-Passenger #41 is being screened by a security screener.
-Passenger #42 is being screened by a security screener.
-Passenger #27 is being seated by a flight attendant.
-Passenger #47 is being processed by a baggage handler.
-Passenger #44 is waiting to be screened by a screener.
-Passenger #45 is waiting to be screened by a screener.
-Passenger #48 is being processed by a baggage handler.
-Passenger #46 is being processed by a baggage handler.
-Passenger #25 has been seated and relaxes.
-Passenger #45 is being screened by a security screener.
-Passenger #28 is being seated by a flight attendant.
-Passenger #40 is waiting to board the plane by an attendant.
-Passenger #43 is waiting to board the plane by an attendant.
-Passenger #41 is waiting to board the plane by an attendant.
-Passenger #27 has been seated and relaxes.
-Passenger #39 is waiting to board the plane by an attendant.
-Passenger #44 is being screened by a security screener.
-Passenger #51 is being processed by a baggage handler.
-Passenger #48 is waiting to be screened by a screener.
-Passenger #47 is waiting to be screened by a screener.
-Passenger #49 is being processed by a baggage handler.
-Passenger #42 is waiting to board the plane by an attendant.
-Passenger #48 is being screened by a security screener.
-Passenger #31 is being seated by a flight attendant.
-Passenger #45 is waiting to board the plane by an attendant.
-Passenger #47 is being screened by a security screener.
-Passenger #50 is being processed by a baggage handler.
-Passenger #46 is waiting to be screened by a screener.
-Passenger #28 has been seated and relaxes.
-Passenger #32 is being seated by a flight attendant.
-Passenger #46 is being screened by a security screener.
-Passenger #52 is being processed by a baggage handler.
-Passenger #51 is waiting to be screened by a screener.
-Passenger #44 is waiting to board the plane by an attendant.
-Passenger #51 is being screened by a security screener.
-Passenger #53 is being processed by a baggage handler.
-Passenger #49 is waiting to be screened by a screener.
-Passenger #31 has been seated and relaxes.
-Passenger #49 is being screened by a security screener.
-Passenger #33 is being seated by a flight attendant.
-Passenger #55 is being processed by a baggage handler.
-Passenger #48 is waiting to board the plane by an attendant.
-Passenger #54 is being processed by a baggage handler.
-Passenger #46 is waiting to board the plane by an attendant.
-Passenger #50 is waiting to be screened by a screener.
-Passenger #32 has been seated and relaxes.
-Passenger #52 is waiting to be screened by a screener.
-Passenger #56 is being processed by a baggage handler.
-Passenger #53 is waiting to be screened by a screener.
-Passenger #50 is being screened by a security screener.
-Passenger #47 is waiting to board the plane by an attendant.
-Passenger #49 is waiting to board the plane by an attendant.
-Passenger #35 is being seated by a flight attendant.
-Passenger #33 has been seated and relaxes.
-Passenger #55 is waiting to be screened by a screener.
-Passenger #36 is being seated by a flight attendant.
-Passenger #53 is being screened by a security screener.
-Passenger #57 is being processed by a baggage handler.
-Passenger #55 is being screened by a security screener.
-Passenger #58 is being processed by a baggage handler.
-Passenger #59 is being processed by a baggage handler.
-Passenger #56 is waiting to be screened by a screener.
-Passenger #52 is being screened by a security screener.
-Passenger #56 is being screened by a security screener.
-Passenger #54 is waiting to be screened by a screener.
-Passenger #51 is waiting to board the plane by an attendant.
 Passenger #35 has been seated and relaxes.
-Passenger #37 is being seated by a flight attendant.
-Passenger #54 is being screened by a security screener.
-Passenger #55 is waiting to board the plane by an attendant.
-Passenger #50 is waiting to board the plane by an attendant.
-Passenger #36 has been seated and relaxes.
-Passenger #62 is being processed by a baggage handler.
-Passenger #53 is waiting to board the plane by an attendant.
-Passenger #60 is being processed by a baggage handler.
-Passenger #56 is waiting to board the plane by an attendant.
-Passenger #58 is waiting to be screened by a screener.
-Passenger #57 is waiting to be screened by a screener.
-Passenger #58 is being screened by a security screener.
-Passenger #38 is being seated by a flight attendant.
-Passenger #52 is waiting to board the plane by an attendant.
-Passenger #57 is being screened by a security screener.
-Passenger #37 has been seated and relaxes.
-Passenger #63 is being processed by a baggage handler.
-Passenger #59 is waiting to be screened by a screener.
-Passenger #62 is waiting to be screened by a screener.
-Passenger #40 is being seated by a flight attendant.
-Passenger #65 is being processed by a baggage handler.
-Passenger #60 is waiting to be screened by a screener.
-Passenger #61 is being processed by a baggage handler.
-Passenger #60 is being screened by a security screener.
-Passenger #38 has been seated and relaxes.
-Passenger #43 is being seated by a flight attendant.
-Passenger #57 is waiting to board the plane by an attendant.
-Passenger #59 is being screened by a security screener.
-Passenger #62 is being screened by a security screener.
-Passenger #63 is waiting to be screened by a screener.
-Passenger #68 is being processed by a baggage handler.
-Passenger #60 is waiting to board the plane by an attendant.
-Passenger #63 is being screened by a security screener.
-Passenger #40 has been seated and relaxes.
-Passenger #43 has been seated and relaxes.
-Passenger #41 is being seated by a flight attendant.
-Passenger #39 is being seated by a flight attendant.
-Passenger #58 is waiting to board the plane by an attendant.
-Passenger #65 is waiting to be screened by a screener.
-Passenger #54 is waiting to board the plane by an attendant.
-Passenger #61 is waiting to be screened by a screener.
-Passenger #65 is being screened by a security screener.
-Passenger #61 is being screened by a security screener.
-Passenger #64 is being processed by a baggage handler.
-Passenger #67 is being processed by a baggage handler.
-Passenger #68 is waiting to be screened by a screener.
-Passenger #62 is waiting to board the plane by an attendant.
-Passenger #59 is waiting to board the plane by an attendant.
-Passenger #63 is waiting to board the plane by an attendant.
-Passenger #68 is being screened by a security screener.
-Passenger #41 has been seated and relaxes.
-Passenger #42 is being seated by a flight attendant.
-Passenger #66 is being processed by a baggage handler.
-Passenger #70 is being processed by a baggage handler.
-Passenger #39 has been seated and relaxes.
-Passenger #45 is being seated by a flight attendant.
-Passenger #69 is being processed by a baggage handler.
-Passenger #61 is waiting to board the plane by an attendant.
-Passenger #68 is waiting to board the plane by an attendant.
-Passenger #67 is waiting to be screened by a screener.
-Passenger #42 has been seated and relaxes.
-Passenger #44 is being seated by a flight attendant.
-Passenger #72 is being processed by a baggage handler.
-Passenger #70 is waiting to be screened by a screener.
-Passenger #67 is being screened by a security screener.
-Passenger #73 is being processed by a baggage handler.
-Passenger #65 is waiting to board the plane by an attendant.
-Passenger #69 is waiting to be screened by a screener.
-Passenger #45 has been seated and relaxes.
-Passenger #64 is waiting to be screened by a screener.
-Passenger #71 is being processed by a baggage handler.
-Passenger #70 is being screened by a security screener.
-Passenger #44 has been seated and relaxes.
-Passenger #69 is being screened by a security screener.
-Passenger #46 is being seated by a flight attendant.
-Passenger #66 is waiting to be screened by a screener.
-Passenger #48 is being seated by a flight attendant.
-Passenger #67 is waiting to board the plane by an attendant.
-Passenger #64 is being screened by a security screener.
-Passenger #75 is being processed by a baggage handler.
-Passenger #71 is waiting to be screened by a screener.
-Passenger #73 is waiting to be screened by a screener.
-Passenger #74 is being processed by a baggage handler.
-Passenger #73 is being screened by a security screener.
-Passenger #69 is waiting to board the plane by an attendant.
-Passenger #76 is being processed by a baggage handler.
-Passenger #66 is being screened by a security screener.
-Passenger #46 has been seated and relaxes.
-Passenger #47 is being seated by a flight attendant.
-Passenger #72 is waiting to be screened by a screener.
-Passenger #70 is waiting to board the plane by an attendant.
-Passenger #72 is being screened by a security screener.
-Passenger #64 is waiting to board the plane by an attendant.
-Passenger #48 has been seated and relaxes.
-Passenger #71 is being screened by a security screener.
+Passenger #79 is being seated by a flight attendant.
+Passenger #6 is being processed by a baggage handler.
 Passenger #77 is being processed by a baggage handler.
-Passenger #78 is being processed by a baggage handler.
-Passenger #74 is waiting to be screened by a screener.
-Passenger #49 is being seated by a flight attendant.
-Passenger #79 is being processed by a baggage handler.
-Passenger #76 is waiting to be screened by a screener.
-Passenger #75 is waiting to be screened by a screener.
-Passenger #74 is being screened by a security screener.
-Passenger #66 is waiting to board the plane by an attendant.
-Passenger #47 has been seated and relaxes.
-Passenger #51 is being seated by a flight attendant.
-Passenger #80 is being processed by a baggage handler.
-Passenger #75 is being screened by a security screener.
-Passenger #72 is waiting to board the plane by an attendant.
-Passenger #81 is being processed by a baggage handler.
-Passenger #73 is waiting to board the plane by an attendant.
-Passenger #71 is waiting to board the plane by an attendant.
-Passenger #49 has been seated and relaxes.
-Passenger #78 is waiting to be screened by a screener.
-Passenger #55 is being seated by a flight attendant.
-Passenger #77 is waiting to be screened by a screener.
-Passenger #82 is being processed by a baggage handler.
-Passenger #78 is being screened by a security screener.
-Passenger #77 is being screened by a security screener.
-Passenger #74 is waiting to board the plane by an attendant.
-Passenger #76 is being screened by a security screener.
-Passenger #51 has been seated and relaxes.
-Passenger #50 is being seated by a flight attendant.
-Passenger #83 is being processed by a baggage handler.
-Passenger #80 is waiting to be screened by a screener.
-Passenger #75 is waiting to board the plane by an attendant.
-Passenger #79 is waiting to be screened by a screener.
-Passenger #80 is being screened by a security screener.
-Passenger #79 is being screened by a security screener.
-Passenger #84 is being processed by a baggage handler.
-Passenger #55 has been seated and relaxes.
-Passenger #53 is being seated by a flight attendant.
-Passenger #86 is being processed by a baggage handler.
-Passenger #82 is waiting to be screened by a screener.
-Passenger #81 is waiting to be screened by a screener.
-Passenger #82 is being screened by a security screener.
-Passenger #76 is waiting to board the plane by an attendant.
-Passenger #50 has been seated and relaxes.
-Passenger #56 is being seated by a flight attendant.
-Passenger #77 is waiting to board the plane by an attendant.
-Passenger #78 is waiting to board the plane by an attendant.
-Passenger #81 is being screened by a security screener.
-Passenger #83 is waiting to be screened by a screener.
-Passenger #83 is being screened by a security screener.
-Passenger #87 is being processed by a baggage handler.
-Passenger #88 is being processed by a baggage handler.
-Passenger #79 is waiting to board the plane by an attendant.
-Passenger #53 has been seated and relaxes.
-Passenger #52 is being seated by a flight attendant.
-Passenger #84 is waiting to be screened by a screener.
-Passenger #89 is being processed by a baggage handler.
-Passenger #80 is waiting to board the plane by an attendant.
-Passenger #82 is waiting to board the plane by an attendant.
-Passenger #84 is being screened by a security screener.
-Passenger #81 is waiting to board the plane by an attendant.
-Passenger #56 has been seated and relaxes.
-Passenger #57 is being seated by a flight attendant.
-Passenger #88 is waiting to be screened by a screener.
-Passenger #86 is waiting to be screened by a screener.
-Passenger #90 is being processed by a baggage handler.
-Passenger #83 is waiting to board the plane by an attendant.
-Passenger #88 is being screened by a security screener.
-Passenger #87 is waiting to be screened by a screener.
-Passenger #52 has been seated and relaxes.
-Passenger #87 is being screened by a security screener.
-Passenger #60 is being seated by a flight attendant.
-Passenger #91 is being processed by a baggage handler.
-Passenger #89 is waiting to be screened by a screener.
-Passenger #57 has been seated and relaxes.
-Passenger #58 is being seated by a flight attendant.
-Passenger #86 is being screened by a security screener.
-Passenger #89 is being screened by a security screener.
-Passenger #92 is being processed by a baggage handler.
-Passenger #93 is being processed by a baggage handler.
-Passenger #90 is waiting to be screened by a screener.
-Passenger #84 is waiting to board the plane by an attendant.
-Passenger #90 is being screened by a security screener.
-Passenger #88 is waiting to board the plane by an attendant.
-Passenger #91 is waiting to be screened by a screener.
-Passenger #87 is waiting to board the plane by an attendant.
-Passenger #91 is being screened by a security screener.
-Passenger #58 has been seated and relaxes.
-Passenger #54 is being seated by a flight attendant.
-Passenger #94 is being processed by a baggage handler.
-Passenger #95 is being processed by a baggage handler.
-Passenger #86 is waiting to board the plane by an attendant.
-Passenger #60 has been seated and relaxes.
-Passenger #62 is being seated by a flight attendant.
-Passenger #93 is waiting to be screened by a screener.
-Passenger #96 is being processed by a baggage handler.
-Passenger #89 is waiting to board the plane by an attendant.
-Passenger #92 is waiting to be screened by a screener.
-Passenger #54 has been seated and relaxes.
-Passenger #59 is being seated by a flight attendant.
-Passenger #93 is being screened by a security screener.
-Passenger #91 is waiting to board the plane by an attendant.
-Passenger #97 is being processed by a baggage handler.
-Passenger #92 is being screened by a security screener.
-Passenger #90 is waiting to board the plane by an attendant.
-Passenger #85 is being processed by a baggage handler.
-Passenger #62 has been seated and relaxes.
-Passenger #95 is waiting to be screened by a screener.
-Passenger #63 is being seated by a flight attendant.
-Passenger #94 is waiting to be screened by a screener.
-Passenger #95 is being screened by a security screener.
-Passenger #94 is being screened by a security screener.
-Passenger #96 is waiting to be screened by a screener.
-Passenger #98 is being processed by a baggage handler.
-Passenger #59 has been seated and relaxes.
-Passenger #96 is being screened by a security screener.
-Passenger #61 is being seated by a flight attendant.
-Passenger #93 is waiting to board the plane by an attendant.
-Passenger #99 is being processed by a baggage handler.
-Passenger #92 is waiting to board the plane by an attendant.
-Passenger #1 is being processed by a baggage handler.
-Passenger #97 is waiting to be screened by a screener.
-Passenger #85 is waiting to be screened by a screener.
-Passenger #63 has been seated and relaxes.
-Passenger #68 is being seated by a flight attendant.
-Passenger #95 is waiting to board the plane by an attendant.
-Passenger #4 is being processed by a baggage handler.
-Passenger #85 is being screened by a security screener.
-Passenger #96 is waiting to board the plane by an attendant.
-Passenger #61 has been seated and relaxes.
-Passenger #98 is waiting to be screened by a screener.
-Passenger #99 is waiting to be screened by a screener.
-Passenger #94 is waiting to board the plane by an attendant.
-Passenger #97 is being screened by a security screener.
-Passenger #10 is being processed by a baggage handler.
-Passenger #1 is waiting to be screened by a screener.
-Passenger #8 is being processed by a baggage handler.
-Passenger #1 is being screened by a security screener.
-Passenger #68 has been seated and relaxes.
-Passenger #67 is being seated by a flight attendant.
-Passenger #98 is being screened by a security screener.
-Passenger #99 is being screened by a security screener.
-Passenger #4 is waiting to be screened by a screener.
-Passenger #65 is being seated by a flight attendant.
-Passenger #4 is being screened by a security screener.
-Passenger #85 is waiting to board the plane by an attendant.
-Passenger #13 is being processed by a baggage handler.
-Passenger #97 is waiting to board the plane by an attendant.
-Passenger #15 is being processed by a baggage handler.
-Passenger #10 is waiting to be screened by a screener.
-Passenger #10 is being screened by a security screener.
-Passenger #17 is being processed by a baggage handler.
-Passenger #8 is waiting to be screened by a screener.
-Passenger #67 has been seated and relaxes.
-Passenger #69 is being seated by a flight attendant.
-Passenger #1 is waiting to board the plane by an attendant.
-Passenger #8 is being screened by a security screener.
-Passenger #98 is waiting to board the plane by an attendant.
-Passenger #99 is waiting to board the plane by an attendant.
-Passenger #20 is being processed by a baggage handler.
-Passenger #13 is waiting to be screened by a screener.
-Passenger #4 is waiting to board the plane by an attendant.
-Passenger #13 is being screened by a security screener.
-Passenger #65 has been seated and relaxes.
-Passenger #70 is being seated by a flight attendant.
-Passenger #22 is being processed by a baggage handler.
-Passenger #15 is waiting to be screened by a screener.
-Passenger #10 is waiting to board the plane by an attendant.
-Passenger #17 is waiting to be screened by a screener.
-Passenger #24 is being processed by a baggage handler.
-Passenger #69 has been seated and relaxes.
-Passenger #64 is being seated by a flight attendant.
-Passenger #8 is waiting to board the plane by an attendant.
-Passenger #29 is being processed by a baggage handler.
-Passenger #20 is waiting to be screened by a screener.
-Passenger #15 is being screened by a security screener.
-Passenger #20 is being screened by a security screener.
-Passenger #17 is being screened by a security screener.
-Passenger #13 is waiting to board the plane by an attendant.
-Passenger #70 has been seated and relaxes.
-Passenger #34 is being processed by a baggage handler.
-Passenger #22 is waiting to be screened by a screener.
-Passenger #22 is being screened by a security screener.
-Passenger #66 is being seated by a flight attendant.
-Passenger #26 is being processed by a baggage handler.
 Passenger #24 is waiting to be screened by a screener.
 Passenger #24 is being screened by a security screener.
-Passenger #64 has been seated and relaxes.
-Passenger #72 is being seated by a flight attendant.
-Passenger #30 is being processed by a baggage handler.
-Passenger #15 is waiting to board the plane by an attendant.
-Passenger #29 is waiting to be screened by a screener.
-Passenger #20 is waiting to board the plane by an attendant.
-Passenger #29 is being screened by a security screener.
-Passenger #22 is waiting to board the plane by an attendant.
-Passenger #34 is waiting to be screened by a screener.
-Passenger #17 is waiting to board the plane by an attendant.
-Passenger #26 is waiting to be screened by a screener.
-Passenger #34 is being screened by a security screener.
-Passenger #66 has been seated and relaxes.
-Passenger #26 is being screened by a security screener.
-Passenger #73 is being seated by a flight attendant.
-Passenger #24 is waiting to board the plane by an attendant.
-Passenger #72 has been seated and relaxes.
-Passenger #71 is being seated by a flight attendant.
-Passenger #30 is waiting to be screened by a screener.
-Passenger #30 is being screened by a security screener.
-Passenger #29 is waiting to board the plane by an attendant.
-Passenger #34 is waiting to board the plane by an attendant.
-Passenger #73 has been seated and relaxes.
-Passenger #74 is being seated by a flight attendant.
-Passenger #26 is waiting to board the plane by an attendant.
-Passenger #71 has been seated and relaxes.
-Passenger #75 is being seated by a flight attendant.
-Passenger #30 is waiting to board the plane by an attendant.
-Passenger #74 has been seated and relaxes.
-Passenger #76 is being seated by a flight attendant.
-Passenger #75 has been seated and relaxes.
-Passenger #77 is being seated by a flight attendant.
-Passenger #76 has been seated and relaxes.
-Passenger #77 has been seated and relaxes.
-Passenger #78 is being seated by a flight attendant.
-Passenger #79 is being seated by a flight attendant.
-Passenger #78 has been seated and relaxes.
-Passenger #79 has been seated and relaxes.
-Passenger #82 is being seated by a flight attendant.
-Passenger #80 is being seated by a flight attendant.
-Passenger #82 has been seated and relaxes.
-Passenger #80 has been seated and relaxes.
-Passenger #81 is being seated by a flight attendant.
-Passenger #83 is being seated by a flight attendant.
-Passenger #81 has been seated and relaxes.
-Passenger #83 has been seated and relaxes.
-Passenger #88 is being seated by a flight attendant.
-Passenger #84 is being seated by a flight attendant.
-Passenger #88 has been seated and relaxes.
+Passenger #44 is being processed by a baggage handler.
 Passenger #84 has been seated and relaxes.
-Passenger #87 is being seated by a flight attendant.
-Passenger #86 is being seated by a flight attendant.
-Passenger #87 has been seated and relaxes.
-Passenger #89 is being seated by a flight attendant.
-Passenger #86 has been seated and relaxes.
-Passenger #91 is being seated by a flight attendant.
-Passenger #89 has been seated and relaxes.
-Passenger #90 is being seated by a flight attendant.
-Passenger #91 has been seated and relaxes.
-Passenger #93 is being seated by a flight attendant.
-Passenger #90 has been seated and relaxes.
+Passenger #93 is waiting to board the plane by an attendant.
+Passenger #2 is waiting to be screened by a screener.
+Passenger #2 is being screened by a security screener.
+Passenger #99 is waiting to board the plane by an attendant.
+Passenger #58 is waiting to be screened by a screener.
+Passenger #23 is waiting to board the plane by an attendant.
+Passenger #58 is being screened by a security screener.
+Passenger #24 is waiting to board the plane by an attendant.
+Passenger #98 is being processed by a baggage handler.
+Passenger #6 is waiting to be screened by a screener.
+Passenger #6 is being screened by a security screener.
+Passenger #7 is being processed by a baggage handler.
+Passenger #78 is being processed by a baggage handler.
+Passenger #44 is waiting to be screened by a screener.
+Passenger #44 is being screened by a security screener.
+Passenger #2 is waiting to board the plane by an attendant.
+Passenger #74 is being seated by a flight attendant.
+Passenger #79 has been seated and relaxes.
+Passenger #69 is being seated by a flight attendant.
+Passenger #6 is waiting to board the plane by an attendant.
+Passenger #64 is being processed by a baggage handler.
+Passenger #34 is being processed by a baggage handler.
+Passenger #7 is waiting to be screened by a screener.
+Passenger #7 is being screened by a security screener.
+Passenger #98 is waiting to be screened by a screener.
+Passenger #58 is waiting to board the plane by an attendant.
+Passenger #98 is being screened by a security screener.
+Passenger #82 is being processed by a baggage handler.
+Passenger #74 has been seated and relaxes.
+Passenger #56 is being seated by a flight attendant.
+Passenger #88 is being processed by a baggage handler.
+Passenger #69 has been seated and relaxes.
+Passenger #64 is waiting to be screened by a screener.
+Passenger #44 is waiting to board the plane by an attendant.
+Passenger #64 is being screened by a security screener.
+Passenger #7 is waiting to board the plane by an attendant.
+Passenger #91 is being processed by a baggage handler.
+Passenger #34 is waiting to be screened by a screener.
+Passenger #34 is being screened by a security screener.
+Passenger #55 is being processed by a baggage handler.
+Passenger #43 is being processed by a baggage handler.
+Passenger #56 has been seated and relaxes.
 Passenger #92 is being seated by a flight attendant.
-Passenger #93 has been seated and relaxes.
-Passenger #95 is being seated by a flight attendant.
-Passenger #92 has been seated and relaxes.
-Passenger #96 is being seated by a flight attendant.
-Passenger #95 has been seated and relaxes.
 Passenger #94 is being seated by a flight attendant.
-Passenger #96 has been seated and relaxes.
-Passenger #85 is being seated by a flight attendant.
+Passenger #64 is waiting to board the plane by an attendant.
+Passenger #98 is waiting to board the plane by an attendant.
+Passenger #34 is waiting to board the plane by an attendant.
+Passenger #89 is being processed by a baggage handler.
+Passenger #80 is being processed by a baggage handler.
+Passenger #55 is waiting to be screened by a screener.
+Passenger #91 is waiting to be screened by a screener.
+Passenger #43 is waiting to be screened by a screener.
+Passenger #55 is being screened by a security screener.
+Passenger #91 is being screened by a security screener.
+Passenger #43 is being screened by a security screener.
+Passenger #81 is being processed by a baggage handler.
+Passenger #92 has been seated and relaxes.
+Passenger #57 is being seated by a flight attendant.
+Passenger #66 is being processed by a baggage handler.
+Passenger #45 is being processed by a baggage handler.
 Passenger #94 has been seated and relaxes.
-Passenger #97 is being seated by a flight attendant.
-Passenger #85 has been seated and relaxes.
+Passenger #21 is being seated by a flight attendant.
+Passenger #80 is waiting to be screened by a screener.
+Passenger #80 is being screened by a security screener.
+Passenger #43 is waiting to board the plane by an attendant.
+Passenger #55 is waiting to board the plane by an attendant.
+Passenger #81 is waiting to be screened by a screener.
+Passenger #91 is waiting to board the plane by an attendant.
+Passenger #81 is being screened by a security screener.
+Passenger #83 is being processed by a baggage handler.
+Passenger #68 is being processed by a baggage handler.
+Passenger #66 is waiting to be screened by a screener.
+Passenger #45 is waiting to be screened by a screener.
+Passenger #66 is being screened by a security screener.
+Passenger #45 is being screened by a security screener.
+Passenger #60 is being processed by a baggage handler.
+Passenger #57 has been seated and relaxes.
+Passenger #3 is being seated by a flight attendant.
+Passenger #21 has been seated and relaxes.
+Passenger #95 is being seated by a flight attendant.
+Passenger #97 is being processed by a baggage handler.
+Passenger #66 is waiting to board the plane by an attendant.
+Passenger #45 is waiting to board the plane by an attendant.
+Passenger #83 is waiting to be screened by a screener.
+Passenger #68 is waiting to be screened by a screener.
+Passenger #81 is waiting to board the plane by an attendant.
+Passenger #80 is waiting to board the plane by an attendant.
+Passenger #83 is being screened by a security screener.
+Passenger #87 is being processed by a baggage handler.
+Passenger #60 is waiting to be screened by a screener.
+Passenger #60 is being screened by a security screener.
+Passenger #68 is being screened by a security screener.
+Passenger #63 is being processed by a baggage handler.
+Passenger #3 has been seated and relaxes.
 Passenger #1 is being seated by a flight attendant.
-Passenger #97 has been seated and relaxes.
-Passenger #98 is being seated by a flight attendant.
+Passenger #65 is being processed by a baggage handler.
+Passenger #95 has been seated and relaxes.
+Passenger #93 is being seated by a flight attendant.
+Passenger #97 is waiting to be screened by a screener.
+Passenger #97 is being screened by a security screener.
+Passenger #60 is waiting to board the plane by an attendant.
+Passenger #67 is being processed by a baggage handler.
+Passenger #47 is being processed by a baggage handler.
+Passenger #68 is waiting to board the plane by an attendant.
+Passenger #87 is waiting to be screened by a screener.
+Passenger #83 is waiting to board the plane by an attendant.
+Passenger #63 is waiting to be screened by a screener.
+Passenger #87 is being screened by a security screener.
+Passenger #63 is being screened by a security screener.
+Passenger #54 is being processed by a baggage handler.
 Passenger #1 has been seated and relaxes.
 Passenger #99 is being seated by a flight attendant.
-Passenger #98 has been seated and relaxes.
-Passenger #4 is being seated by a flight attendant.
+Passenger #71 is being processed by a baggage handler.
+Passenger #97 is waiting to board the plane by an attendant.
+Passenger #67 is waiting to be screened by a screener.
+Passenger #67 is being screened by a security screener.
+Passenger #76 is being processed by a baggage handler.
+Passenger #87 is waiting to board the plane by an attendant.
+Passenger #26 is being processed by a baggage handler.
+Passenger #93 has been seated and relaxes.
+Passenger #23 is being seated by a flight attendant.
+Passenger #54 is waiting to be screened by a screener.
+Passenger #47 is waiting to be screened by a screener.
+Passenger #65 is waiting to be screened by a screener.
+Passenger #54 is being screened by a security screener.
+Passenger #47 is being screened by a security screener.
+Passenger #65 is being screened by a security screener.
+Passenger #71 is waiting to be screened by a screener.
+Passenger #63 is waiting to board the plane by an attendant.
+Passenger #71 is being screened by a security screener.
+Passenger #90 is being processed by a baggage handler.
+Passenger #67 is waiting to board the plane by an attendant.
+Passenger #53 is being processed by a baggage handler.
+Passenger #76 is waiting to be screened by a screener.
+Passenger #26 is waiting to be screened by a screener.
+Passenger #76 is being screened by a security screener.
+Passenger #26 is being screened by a security screener.
+Passenger #27 is being processed by a baggage handler.
+Passenger #47 is waiting to board the plane by an attendant.
+Passenger #54 is waiting to board the plane by an attendant.
+Passenger #65 is waiting to board the plane by an attendant.
+Passenger #71 is waiting to board the plane by an attendant.
+Passenger #100 is being processed by a baggage handler.
+Passenger #29 is being processed by a baggage handler.
 Passenger #99 has been seated and relaxes.
-Passenger #10 is being seated by a flight attendant.
-Passenger #4 has been seated and relaxes.
-Passenger #8 is being seated by a flight attendant.
-Passenger #10 has been seated and relaxes.
-Passenger #13 is being seated by a flight attendant.
-Passenger #8 has been seated and relaxes.
-Passenger #15 is being seated by a flight attendant.
-Passenger #13 has been seated and relaxes.
-Passenger #15 has been seated and relaxes.
-Passenger #22 is being seated by a flight attendant.
-Passenger #20 is being seated by a flight attendant.
-Passenger #22 has been seated and relaxes.
-Passenger #20 has been seated and relaxes.
+Passenger #53 is waiting to be screened by a screener.
+Passenger #90 is waiting to be screened by a screener.
+Passenger #53 is being screened by a security screener.
+Passenger #90 is being screened by a security screener.
+Passenger #26 is waiting to board the plane by an attendant.
+Passenger #49 is being processed by a baggage handler.
+Passenger #27 is waiting to be screened by a screener.
+Passenger #27 is being screened by a security screener.
+Passenger #72 is being processed by a baggage handler.
+Passenger #75 is being processed by a baggage handler.
+Passenger #23 has been seated and relaxes.
+Passenger #2 is being seated by a flight attendant.
+Passenger #49 is waiting to be screened by a screener.
+Passenger #100 is waiting to be screened by a screener.
+Passenger #90 is waiting to board the plane by an attendant.
+Passenger #53 is waiting to board the plane by an attendant.
+Passenger #49 is being screened by a security screener.
+Passenger #100 is being screened by a security screener.
+Passenger #70 is being processed by a baggage handler.
+Passenger #29 is waiting to be screened by a screener.
+Passenger #29 is being screened by a security screener.
+Passenger #51 is being processed by a baggage handler.
 Passenger #24 is being seated by a flight attendant.
-Passenger #17 is being seated by a flight attendant.
+Passenger #75 is waiting to be screened by a screener.
+Passenger #72 is waiting to be screened by a screener.
+Passenger #75 is being screened by a security screener.
+Passenger #72 is being screened by a security screener.
+Passenger #76 is waiting to board the plane by an attendant.
+Passenger #29 is waiting to board the plane by an attendant.
+Passenger #59 is being processed by a baggage handler.
+Passenger #85 is being processed by a baggage handler.
+Passenger #27 is waiting to board the plane by an attendant.
+Passenger #72 is waiting to board the plane by an attendant.
+Passenger #2 has been seated and relaxes.
+Passenger #6 is being seated by a flight attendant.
+Passenger #100 is waiting to board the plane by an attendant.
+Passenger #49 is waiting to board the plane by an attendant.
+Passenger #32 is being processed by a baggage handler.
+Passenger #48 is being processed by a baggage handler.
+Passenger #73 is being processed by a baggage handler.
+Passenger #59 is waiting to be screened by a screener.
+Passenger #85 is waiting to be screened by a screener.
+Passenger #51 is waiting to be screened by a screener.
+Passenger #70 is waiting to be screened by a screener.
+Passenger #75 is waiting to board the plane by an attendant.
+Passenger #85 is being screened by a security screener.
+Passenger #59 is being screened by a security screener.
+Passenger #51 is being screened by a security screener.
+Passenger #70 is being screened by a security screener.
 Passenger #24 has been seated and relaxes.
-Passenger #17 has been seated and relaxes.
+Passenger #58 is being seated by a flight attendant.
+Passenger #32 is waiting to be screened by a screener.
+Passenger #32 is being screened by a security screener.
+Passenger #20 is being processed by a baggage handler.
+Passenger #18 is being processed by a baggage handler.
+Passenger #6 has been seated and relaxes.
+Passenger #44 is being seated by a flight attendant.
+Passenger #48 is waiting to be screened by a screener.
+Passenger #70 is waiting to board the plane by an attendant.
+Passenger #48 is being screened by a security screener.
+Passenger #32 is waiting to board the plane by an attendant.
+Passenger #46 is being processed by a baggage handler.
+Passenger #58 has been seated and relaxes.
+Passenger #7 is being seated by a flight attendant.
+Passenger #73 is waiting to be screened by a screener.
+Passenger #59 is waiting to board the plane by an attendant.
+Passenger #51 is waiting to board the plane by an attendant.
+Passenger #20 is waiting to be screened by a screener.
+Passenger #73 is being screened by a security screener.
+Passenger #52 is being processed by a baggage handler.
+Passenger #33 is being processed by a baggage handler.
+Passenger #18 is waiting to be screened by a screener.
+Passenger #18 is being screened by a security screener.
+Passenger #44 has been seated and relaxes.
+Passenger #64 is being seated by a flight attendant.
+Passenger #85 is waiting to board the plane by an attendant.
+Passenger #46 is waiting to be screened by a screener.
+Passenger #48 is waiting to board the plane by an attendant.
+Passenger #46 is being screened by a security screener.
+Passenger #12 is being processed by a baggage handler.
+Passenger #73 is waiting to board the plane by an attendant.
+Passenger #52 is waiting to be screened by a screener.
+Passenger #33 is waiting to be screened by a screener.
+Passenger #52 is being screened by a security screener.
+Passenger #22 is being processed by a baggage handler.
+Passenger #20 is being screened by a security screener.
+Passenger #33 is being screened by a security screener.
+Passenger #18 is waiting to board the plane by an attendant.
+Passenger #7 has been seated and relaxes.
+Passenger #98 is being seated by a flight attendant.
+Passenger #61 is being processed by a baggage handler.
+Passenger #12 is waiting to be screened by a screener.
+Passenger #46 is waiting to board the plane by an attendant.
+Passenger #20 is waiting to board the plane by an attendant.
+Passenger #12 is being screened by a security screener.
+Passenger #33 is waiting to board the plane by an attendant.
+Passenger #17 is being processed by a baggage handler.
+Passenger #22 is waiting to be screened by a screener.
+Passenger #22 is being screened by a security screener.
+Passenger #52 is waiting to board the plane by an attendant.
+Passenger #42 is being processed by a baggage handler.
+Passenger #98 has been seated and relaxes.
 Passenger #34 is being seated by a flight attendant.
-Passenger #29 is being seated by a flight attendant.
+Passenger #12 is waiting to board the plane by an attendant.
+Passenger #25 is being processed by a baggage handler.
+Passenger #62 is being processed by a baggage handler.
+Passenger #61 is waiting to be screened by a screener.
+Passenger #17 is waiting to be screened by a screener.
+Passenger #61 is being screened by a security screener.
+Passenger #17 is being screened by a security screener.
+Passenger #22 is waiting to board the plane by an attendant.
+Passenger #64 has been seated and relaxes.
+Passenger #43 is being seated by a flight attendant.
+Passenger #40 is being processed by a baggage handler.
+Passenger #25 is waiting to be screened by a screener.
+Passenger #42 is waiting to be screened by a screener.
+Passenger #28 is being processed by a baggage handler.
 Passenger #34 has been seated and relaxes.
+Passenger #55 is being seated by a flight attendant.
+Passenger #25 is being screened by a security screener.
+Passenger #39 is being processed by a baggage handler.
+Passenger #19 is being processed by a baggage handler.
+Passenger #43 has been seated and relaxes.
+Passenger #91 is being seated by a flight attendant.
+Passenger #17 is waiting to board the plane by an attendant.
+Passenger #86 is being processed by a baggage handler.
+Passenger #42 is being screened by a security screener.
+Passenger #62 is waiting to be screened by a screener.
+Passenger #40 is waiting to be screened by a screener.
+Passenger #28 is waiting to be screened by a screener.
+Passenger #40 is being screened by a security screener.
+Passenger #62 is being screened by a security screener.
+Passenger #61 is waiting to board the plane by an attendant.
+Passenger #28 is being screened by a security screener.
+Passenger #25 is waiting to board the plane by an attendant.
+Passenger #42 is waiting to board the plane by an attendant.
+Passenger #91 has been seated and relaxes.
+Passenger #66 is being seated by a flight attendant.
+Passenger #19 is waiting to be screened by a screener.
+Passenger #19 is being screened by a security screener.
+Passenger #86 is waiting to be screened by a screener.
+Passenger #62 is waiting to board the plane by an attendant.
+Passenger #40 is waiting to board the plane by an attendant.
+Passenger #86 is being screened by a security screener.
+Passenger #38 is being processed by a baggage handler.
+Passenger #30 is being processed by a baggage handler.
+Passenger #55 has been seated and relaxes.
+Passenger #45 is being seated by a flight attendant.
+Passenger #28 is waiting to board the plane by an attendant.
+Passenger #19 is waiting to board the plane by an attendant.
+Passenger #31 is being processed by a baggage handler.
+Passenger #66 has been seated and relaxes.
+Passenger #81 is being seated by a flight attendant.
+Passenger #39 is waiting to be screened by a screener.
+Passenger #39 is being screened by a security screener.
+Passenger #10 is being processed by a baggage handler.
+Passenger #15 is being processed by a baggage handler.
+Passenger #30 is waiting to be screened by a screener.
+Passenger #30 is being screened by a security screener.
+Passenger #45 has been seated and relaxes.
+Passenger #80 is being seated by a flight attendant.
+Passenger #86 is waiting to board the plane by an attendant.
+Passenger #38 is waiting to be screened by a screener.
+Passenger #38 is being screened by a security screener.
+Passenger #50 is being processed by a baggage handler.
+Passenger #31 is waiting to be screened by a screener.
+Passenger #31 is being screened by a security screener.
+Passenger #15 is waiting to be screened by a screener.
+Passenger #15 is being screened by a security screener.
+Passenger #81 has been seated and relaxes.
+Passenger #60 is being seated by a flight attendant.
+Passenger #80 has been seated and relaxes.
+Passenger #68 is being seated by a flight attendant.
+Passenger #50 is waiting to be screened by a screener.
+Passenger #39 is waiting to board the plane by an attendant.
+Passenger #38 is waiting to board the plane by an attendant.
+Passenger #10 is waiting to be screened by a screener.
+Passenger #30 is waiting to board the plane by an attendant.
+Passenger #50 is being screened by a security screener.
+Passenger #31 is waiting to board the plane by an attendant.
+Passenger #10 is being screened by a security screener.
+Passenger #15 is waiting to board the plane by an attendant.
+Passenger #41 is being processed by a baggage handler.
+Passenger #60 has been seated and relaxes.
+Passenger #83 is being seated by a flight attendant.
+Passenger #68 has been seated and relaxes.
+Passenger #97 is being seated by a flight attendant.
+Passenger #10 is waiting to board the plane by an attendant.
+Passenger #83 has been seated and relaxes.
+Passenger #87 is being seated by a flight attendant.
+Passenger #97 has been seated and relaxes.
+Passenger #63 is being seated by a flight attendant.
+Passenger #77 is waiting to be screened by a screener.
+Passenger #77 is being screened by a security screener.
+Passenger #87 has been seated and relaxes.
+Passenger #67 is being seated by a flight attendant.
+Passenger #63 has been seated and relaxes.
+Passenger #47 is being seated by a flight attendant.
+Passenger #67 has been seated and relaxes.
+Passenger #54 is being seated by a flight attendant.
+Passenger #77 is waiting to board the plane by an attendant.
+Passenger #78 is waiting to be screened by a screener.
+Passenger #78 is being screened by a security screener.
+Passenger #54 has been seated and relaxes.
+Passenger #65 is being seated by a flight attendant.
+Passenger #47 has been seated and relaxes.
+Passenger #71 is being seated by a flight attendant.
+Passenger #82 is waiting to be screened by a screener.
+Passenger #82 is being screened by a security screener.
+Passenger #88 is waiting to be screened by a screener.
+Passenger #65 has been seated and relaxes.
 Passenger #26 is being seated by a flight attendant.
-Passenger #29 has been seated and relaxes.
-Passenger #30 is being seated by a flight attendant.
+Passenger #78 is waiting to board the plane by an attendant.
+Passenger #71 has been seated and relaxes.
+Passenger #90 is being seated by a flight attendant.
+Passenger #50 is waiting to board the plane by an attendant.
+Passenger #41 is waiting to be screened by a screener.
+Passenger #41 is being screened by a security screener.
 Passenger #26 has been seated and relaxes.
+Passenger #53 is being seated by a flight attendant.
+Passenger #82 is waiting to board the plane by an attendant.
+Passenger #88 is being screened by a security screener.
+Passenger #89 is waiting to be screened by a screener.
+Passenger #89 is being screened by a security screener.
+Passenger #90 has been seated and relaxes.
+Passenger #76 is being seated by a flight attendant.
+Passenger #53 has been seated and relaxes.
+Passenger #29 is being seated by a flight attendant.
+Passenger #41 is waiting to board the plane by an attendant.
+Passenger #76 has been seated and relaxes.
+Passenger #27 is being seated by a flight attendant.
+Passenger #88 is waiting to board the plane by an attendant.
+Passenger #89 is waiting to board the plane by an attendant.
+Passenger #29 has been seated and relaxes.
+Passenger #72 is being seated by a flight attendant.
+Passenger #27 has been seated and relaxes.
+Passenger #100 is being seated by a flight attendant.
+Passenger #72 has been seated and relaxes.
+Passenger #49 is being seated by a flight attendant.
+Passenger #100 has been seated and relaxes.
+Passenger #75 is being seated by a flight attendant.
+Passenger #49 has been seated and relaxes.
+Passenger #70 is being seated by a flight attendant.
+Passenger #75 has been seated and relaxes.
+Passenger #32 is being seated by a flight attendant.
+Passenger #70 has been seated and relaxes.
+Passenger #59 is being seated by a flight attendant.
+Passenger #32 has been seated and relaxes.
+Passenger #51 is being seated by a flight attendant.
+Passenger #51 has been seated and relaxes.
+Passenger #85 is being seated by a flight attendant.
+Passenger #59 has been seated and relaxes.
+Passenger #48 is being seated by a flight attendant.
+Passenger #48 has been seated and relaxes.
+Passenger #73 is being seated by a flight attendant.
+Passenger #85 has been seated and relaxes.
+Passenger #18 is being seated by a flight attendant.
+Passenger #73 has been seated and relaxes.
+Passenger #46 is being seated by a flight attendant.
+Passenger #18 has been seated and relaxes.
+Passenger #20 is being seated by a flight attendant.
+Passenger #20 has been seated and relaxes.
+Passenger #33 is being seated by a flight attendant.
+Passenger #46 has been seated and relaxes.
+Passenger #52 is being seated by a flight attendant.
+Passenger #33 has been seated and relaxes.
+Passenger #12 is being seated by a flight attendant.
+Passenger #52 has been seated and relaxes.
+Passenger #22 is being seated by a flight attendant.
+Passenger #12 has been seated and relaxes.
+Passenger #17 is being seated by a flight attendant.
+Passenger #22 has been seated and relaxes.
+Passenger #61 is being seated by a flight attendant.
+Passenger #17 has been seated and relaxes.
+Passenger #25 is being seated by a flight attendant.
+Passenger #61 has been seated and relaxes.
+Passenger #42 is being seated by a flight attendant.
+Passenger #25 has been seated and relaxes.
+Passenger #62 is being seated by a flight attendant.
+Passenger #42 has been seated and relaxes.
+Passenger #40 is being seated by a flight attendant.
+Passenger #62 has been seated and relaxes.
+Passenger #28 is being seated by a flight attendant.
+Passenger #40 has been seated and relaxes.
+Passenger #19 is being seated by a flight attendant.
+Passenger #28 has been seated and relaxes.
+Passenger #86 is being seated by a flight attendant.
+Passenger #19 has been seated and relaxes.
+Passenger #39 is being seated by a flight attendant.
+Passenger #39 has been seated and relaxes.
+Passenger #38 is being seated by a flight attendant.
+Passenger #86 has been seated and relaxes.
+Passenger #30 is being seated by a flight attendant.
 Passenger #30 has been seated and relaxes.
+Passenger #31 is being seated by a flight attendant.
+Passenger #38 has been seated and relaxes.
+Passenger #15 is being seated by a flight attendant.
+Passenger #31 has been seated and relaxes.
+Passenger #10 is being seated by a flight attendant.
+Passenger #15 has been seated and relaxes.
+Passenger #77 is being seated by a flight attendant.
+Passenger #10 has been seated and relaxes.
+Passenger #50 is being seated by a flight attendant.
+Passenger #77 has been seated and relaxes.
+Passenger #78 is being seated by a flight attendant.
+Passenger #50 has been seated and relaxes.
+Passenger #82 is being seated by a flight attendant.
+Passenger #78 has been seated and relaxes.
+Passenger #41 is being seated by a flight attendant.
+Passenger #41 has been seated and relaxes.
+Passenger #88 is being seated by a flight attendant.
+Passenger #82 has been seated and relaxes.
+Passenger #89 is being seated by a flight attendant.
+Passenger #89 has been seated and relaxes.
+Passenger #88 has been seated and relaxes.
 *** All 100 passengers are seated. The plane takes off! ***
 All passenger threads completed. Exiting.
-[1m[7m%[27m[1m[0m                                                                                                                         
- 
-]7;file://Emilys-MacBook-Pro.local/Users/emilyweimer/Desktop/cs4440
-[0m[27m[24m[Jemilyweimer@Emilys-MacBook-Pro cs4440 % [K[?2004heexit[?2004l
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ exit
+[?2004l
+exit
 
-
-Saving session...
-...copying shared history...
-...saving history...truncating history files...
-...completed.
-
-
-
-
+Script done on 2025-10-20 03:14:26+00:00 [COMMAND_EXIT_CODE="0"]
