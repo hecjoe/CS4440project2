@@ -1,100 +1,305 @@
-Script started on 2025-10-20 04:00:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ gcc -Wall -Wextra -O2 -pthread -o producer_consumer producer_consumer.c[A
-]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ [10P./producer_consumer     #baseline state test
-
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Script started on 2025-10-20 05:23:57+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./producer_consumer   #baseline test
 [?2004l
 Produced: A (Total produced: 1)
+Buffer: [A _ _ _ _]
+Consumer waiting: buffer empty
 Consumed: A
+Buffer: [_ _ _ _ _]
 Produced: B (Total produced: 2)
+Buffer: [_ B _ _ _]
+Consumer waiting: buffer empty
 Consumed: B
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
 Produced: C (Total produced: 3)
+Buffer: [_ _ C _ _]
 Consumed: C
+Buffer: [_ _ _ _ _]
 Produced: D (Total produced: 4)
+Buffer: [_ _ _ D _]
 Consumed: D
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
 Produced: E (Total produced: 5)
+Buffer: [_ _ _ _ E]
 Consumed: E
+Buffer: [_ _ _ _ _]
 Produced: F (Total produced: 6)
+Buffer: [F _ _ _ _]
 Consumed: F
+Buffer: [_ _ _ _ _]
 Produced: G (Total produced: 7)
+Buffer: [_ G _ _ _]
 Consumed: G
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
 Produced: H (Total produced: 8)
+Buffer: [_ _ H _ _]
 Consumed: H
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
 Produced: I (Total produced: 9)
+Buffer: [_ _ _ I _]
 Consumed: I
+Buffer: [_ _ _ _ _]
 Produced: J (Total produced: 10)
+Buffer: [_ _ _ _ J]
 Consumed: J
+Buffer: [_ _ _ _ _]
 Produced: K (Total produced: 11)
+Buffer: [K _ _ _ _]
 Consumed: K
+Buffer: [_ _ _ _ _]
 Produced: L (Total produced: 12)
+Buffer: [_ L _ _ _]
 Consumed: L
+Buffer: [_ _ _ _ _]
 Produced: M (Total produced: 13)
+Buffer: [_ _ M _ _]
 Consumed: M
+Buffer: [_ _ _ _ _]
 Produced: N (Total produced: 14)
+Buffer: [_ _ _ N _]
 Consumed: N
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
 Produced: O (Total produced: 15)
+Buffer: [_ _ _ _ O]
 Consumed: O
+Buffer: [_ _ _ _ _]
 Produced: P (Total produced: 16)
+Buffer: [P _ _ _ _]
 Consumed: P
+Buffer: [_ _ _ _ _]
 Produced: Q (Total produced: 17)
+Buffer: [_ Q _ _ _]
+Consumer waiting: buffer empty
 Consumed: Q
+Buffer: [_ _ _ _ _]
 Produced: R (Total produced: 18)
+Buffer: [_ _ R _ _]
+Consumer waiting: buffer empty
 Consumed: R
+Buffer: [_ _ _ _ _]
 Produced: S (Total produced: 19)
+Buffer: [_ _ _ S _]
 Consumed: S
+Buffer: [_ _ _ _ _]
 Produced: T (Total produced: 20)
+Buffer: [_ _ _ _ T]
 Consumed: T
+Buffer: [_ _ _ _ _]
 20 items produced and consumed. Exiting program.
 
 ]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ gcc -Wall -Wextra -O2 -pthread -o producer_consumer producer_consumer.c[A
-]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./producer_consumer   #buffer full test, usleep values [3P10000 300000 
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./producer_consumer   #buffer full test, usleep values [3P10000 200000 
 [?2004l
 Produced: A (Total produced: 1)
+Buffer: [A _ _ _ _]
 Consumed: A
+Buffer: [_ _ _ _ _]
 Produced: B (Total produced: 2)
+Buffer: [_ B _ _ _]
 Produced: C (Total produced: 3)
+Buffer: [_ B C _ _]
 Produced: D (Total produced: 4)
+Buffer: [_ B C D _]
 Produced: E (Total produced: 5)
+Buffer: [_ B C D E]
 Produced: F (Total produced: 6)
+Buffer: [F B C D E]
+Producer waiting: buffer full
 Consumed: B
+Buffer: [F _ C D E]
 Produced: G (Total produced: 7)
+Buffer: [F G C D E]
+Producer waiting: buffer full
 Consumed: C
+Buffer: [F G _ D E]
 Produced: H (Total produced: 8)
+Buffer: [F G H D E]
+Producer waiting: buffer full
 Consumed: D
+Buffer: [F G H _ E]
 Produced: I (Total produced: 9)
+Buffer: [F G H I E]
+Producer waiting: buffer full
 Consumed: E
+Buffer: [F G H I _]
 Produced: J (Total produced: 10)
+Buffer: [F G H I J]
+Producer waiting: buffer full
 Consumed: F
+Buffer: [_ G H I J]
 Produced: K (Total produced: 11)
+Buffer: [K G H I J]
+Producer waiting: buffer full
 Consumed: G
+Buffer: [K _ H I J]
 Produced: L (Total produced: 12)
+Buffer: [K L H I J]
+Producer waiting: buffer full
 Consumed: H
+Buffer: [K L _ I J]
 Produced: M (Total produced: 13)
+Buffer: [K L M I J]
+Producer waiting: buffer full
 Consumed: I
+Buffer: [K L M _ J]
 Produced: N (Total produced: 14)
+Buffer: [K L M N J]
+Producer waiting: buffer full
 Consumed: J
+Buffer: [K L M N _]
 Produced: O (Total produced: 15)
+Buffer: [K L M N O]
+Producer waiting: buffer full
 Consumed: K
+Buffer: [_ L M N O]
 Produced: P (Total produced: 16)
+Buffer: [P L M N O]
+Producer waiting: buffer full
 Consumed: L
+Buffer: [P _ M N O]
 Produced: Q (Total produced: 17)
+Buffer: [P Q M N O]
+Producer waiting: buffer full
 Consumed: M
+Buffer: [P Q _ N O]
 Produced: R (Total produced: 18)
+Buffer: [P Q R N O]
+Producer waiting: buffer full
 Consumed: N
+Buffer: [P Q R _ O]
 Produced: S (Total produced: 19)
+Buffer: [P Q R S O]
+Producer waiting: buffer full
 Consumed: O
+Buffer: [P Q R S _]
 Produced: T (Total produced: 20)
+Buffer: [P Q R S T]
 Consumed: P
+Buffer: [_ Q R S T]
 Consumed: Q
+Buffer: [_ _ R S T]
 Consumed: R
+Buffer: [_ _ _ S T]
 Consumed: S
+Buffer: [_ _ _ _ T]
 Consumed: T
+Buffer: [_ _ _ _ _]
+20 items produced and consumed. Exiting program.
+
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ gcc -Wall -Wextra -O2 -pthread -o producer_consumer producer_consumer.c[A
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./producer_consumer   #buffer empty test, usleep values 800000 500[K[K[K[K[K[K[K[K[K[K200000 10000
+[?2004l
+Consumer waiting: buffer empty
+Produced: A (Total produced: 1)
+Buffer: [A _ _ _ _]
+Consumed: A
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: B (Total produced: 2)
+Buffer: [_ B _ _ _]
+Consumed: B
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: C (Total produced: 3)
+Buffer: [_ _ C _ _]
+Consumed: C
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: D (Total produced: 4)
+Buffer: [_ _ _ D _]
+Consumed: D
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: E (Total produced: 5)
+Buffer: [_ _ _ _ E]
+Consumed: E
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: F (Total produced: 6)
+Buffer: [F _ _ _ _]
+Consumed: F
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: G (Total produced: 7)
+Buffer: [_ G _ _ _]
+Consumed: G
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: H (Total produced: 8)
+Buffer: [_ _ H _ _]
+Consumed: H
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: I (Total produced: 9)
+Buffer: [_ _ _ I _]
+Consumed: I
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: J (Total produced: 10)
+Buffer: [_ _ _ _ J]
+Consumed: J
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: K (Total produced: 11)
+Buffer: [K _ _ _ _]
+Consumed: K
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: L (Total produced: 12)
+Buffer: [_ L _ _ _]
+Consumed: L
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: M (Total produced: 13)
+Buffer: [_ _ M _ _]
+Consumed: M
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: N (Total produced: 14)
+Buffer: [_ _ _ N _]
+Consumed: N
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: O (Total produced: 15)
+Buffer: [_ _ _ _ O]
+Consumed: O
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: P (Total produced: 16)
+Buffer: [P _ _ _ _]
+Consumed: P
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: Q (Total produced: 17)
+Buffer: [_ Q _ _ _]
+Consumed: Q
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: R (Total produced: 18)
+Buffer: [_ _ R _ _]
+Consumed: R
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: S (Total produced: 19)
+Buffer: [_ _ _ S _]
+Consumed: S
+Buffer: [_ _ _ _ _]
+Consumer waiting: buffer empty
+Produced: T (Total produced: 20)
+Buffer: [_ _ _ _ T]
+Consumed: T
+Buffer: [_ _ _ _ _]
 20 items produced and consumed. Exiting program.
 [?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ exit
 [?2004l
 exit
 
-Script done on 2025-10-20 04:02:14+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-10-20 05:26:55+00:00 [COMMAND_EXIT_CODE="0"]
 
 
 
