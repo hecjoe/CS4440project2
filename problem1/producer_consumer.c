@@ -5,7 +5,6 @@ The buffer has a maximum size of 5, and the program ensures proper synchronizati
 between producer and consumer threads using mutexes and semaphores.
 The program stops after producing and consuming a total of 20 items. */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -13,7 +12,7 @@ The program stops after producing and consuming a total of 20 items. */
 #include <semaphore.h>
 
 #define MAX_SIZE 5
-#define TOTAL_ITEMS 20 
+#define TOTAL_ITEMS 20
 
 // Shared buffer and indices
 // in is the next position the producer will write to
@@ -33,31 +32,69 @@ sem_t full, empty;
 
 // Generates next printable character (A–Z looping)
 // If the character exceeds 'Z', it wraps around to 'A'
-char get_char(void) {
+char get_char(void)
+{
     static char c = 'A';
-    if (c > 'Z') c = 'A';
+    if (c > 'Z')
+        c = 'A';
     return c++;
 }
 
 // Consumer function that simulates using a character
-// This just function prints the consumed character to the console
-void use_char(char c) {
+// This function prints the consumed character to the console
+void use_char(char c)
+{
     printf("Consumed: %c\n", c);
     fflush(stdout);
 }
 
+// Function to print current buffer contents
+// '_' represents an empty slot; letters represent filled slots
+// This helps visualize buffer states for full, empty, and partially filled
+void print_buffer()
+{
+    printf("Buffer: [");
+    for (int i = 0; i < MAX_SIZE; i++)
+    {
+        int index = i;
+        int count_in_buffer = produced_count - consumed_count;
+        if ((index >= out && index < out + count_in_buffer) ||
+            (out + count_in_buffer > MAX_SIZE && index < (out + count_in_buffer) % MAX_SIZE))
+            printf("%c", buffer[i]);
+        else
+            printf("_");
+        if (i < MAX_SIZE - 1)
+            printf(" ");
+    }
+    printf("]\n");
+    fflush(stdout);
+}
+
 // Producer thread
-// This function runs in a loop, producing characters and adding them to the buffer when there is space and stopping after producing a total of 20 items.
-void *producer(void *arg) {
-    while (1) {
+// Produces characters and adds them to the buffer if space is available
+// Stops after producing TOTAL_ITEMS characters
+void *producer(void *arg)
+{
+    while (1)
+    {
         pthread_mutex_lock(&mutex);
-        if (produced_count >= TOTAL_ITEMS) {
+        if (produced_count >= TOTAL_ITEMS)
+        {
             pthread_mutex_unlock(&mutex);
-            break; 
+            break;
         }
         pthread_mutex_unlock(&mutex);
+
         char item = get_char();
 
+        // Shows when producer is waiting because the buffer is full
+        int sem_val;
+        sem_getvalue(&empty, &sem_val);
+        if (sem_val == 0)
+        {
+            printf("Producer waiting: buffer full\n");
+            fflush(stdout);
+        }
 
         // Waits for an empty slot
         sem_wait(&empty);
@@ -70,31 +107,42 @@ void *producer(void *arg) {
         produced_count++;
 
         printf("Produced: %c (Total produced: %d)\n", item, produced_count);
+        print_buffer(); // Show buffer state after production
 
-        // Signals that a new item is available
         pthread_mutex_unlock(&mutex);
         sem_post(&full);
 
-        // Slows the production down so you can see the alternation
-        usleep(200000);
+        // Slows production to better visualize buffer alternation
+        usleep(800000);
     }
     return NULL;
 }
 
 // Consumer thread
-// This function runs in a loop, consuming characters from the buffer when available and stopping after consuming a total of 20 items.
-void *consumer(void *arg) {
-        while (1) {
+// Consumes characters from the buffer if available
+// Stops after consuming TOTAL_ITEMS characters
+void *consumer(void *arg)
+{
+    while (1)
+    {
         pthread_mutex_lock(&mutex);
-        if (consumed_count >= TOTAL_ITEMS) {
+        if (consumed_count >= TOTAL_ITEMS)
+        {
             pthread_mutex_unlock(&mutex);
-            break; 
+            break;
         }
         pthread_mutex_unlock(&mutex);
 
+        // Shows when consumer is waiting because the buffer is empty
+        int sem_val;
+        sem_getvalue(&full, &sem_val);
+        if (sem_val == 0)
+        {
+            printf("Consumer waiting: buffer empty\n");
+            fflush(stdout);
+        }
 
         // Waits for a filled slot
-        // Locks the mutex to ensure exclusive access to the buffer
         sem_wait(&full);
         pthread_mutex_lock(&mutex);
 
@@ -105,18 +153,19 @@ void *consumer(void *arg) {
         consumed_count++;
 
         use_char(item);
+        print_buffer(); // Show buffer state after consumption
 
-        // Unlocks the mutex and signals that a slot is now empty
         pthread_mutex_unlock(&mutex);
         sem_post(&empty);
 
-        // Slows the consumption down so you can see the alternation
-        usleep(200000); 
+        // Slows consumption to better visualize buffer alternation
+        usleep(10000);
     }
     return NULL;
 }
 
-int main(void) {
+int main(void)
+{
     pthread_t prod, cons;
 
     // Initializes mutex and semaphores
@@ -132,7 +181,7 @@ int main(void) {
     pthread_join(prod, NULL);
     pthread_join(cons, NULL);
 
-    // Cleanup which destroys mutex and semaphores
+    // Cleanup: destroys mutex and semaphores
     pthread_mutex_destroy(&mutex);
     sem_destroy(&full);
     sem_destroy(&empty);
