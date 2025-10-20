@@ -1,7 +1,16 @@
-// Problem 3 - Airline Passengers
-// ADD DESCRIPTION 
-// Build (Mac OS): clang/gcc -Wall -Wextra -O2 -pthread -o airline airline.c
-// Run:   ./airline <P passengers> <B handlers> <S screeners> <F attendants>
+/*
+ * Problem 3 -Airline Passengers
+ *
+ * Simulates an airport pipeline with threads and synchronization:
+ *   P passenger threads flow through three staged worker pools:
+ *   B baggage handlers, S security screeners, and F flight attendants.
+ * Each stage uses a mutex-protected FIFO queue; workers block on semaphores
+ * (no busy-waiting). A pthread barrier makes all passengers "arrive together."
+ * The plane takes off only after all P passengers are seated, printed once.
+ *
+ * Build: gcc -Wall -Wextra -O2 -pthread -o airline airline.c
+ * Usage: ./airline <P passengers> <B handlers> <S screeners> <F attendants>
+ */
 
 #define _XOPEN_SOURCE 700
 #include <stdio.h>
@@ -247,3 +256,4 @@ int main(int argc, char **argv) {
     my_barrier_destroy(&ap.arrive_barrier);
     return 0;
 }
+
