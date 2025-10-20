@@ -1,3 +1,105 @@
+Script started on 2025-10-20 04:00:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ gcc -Wall -Wextra -O2 -pthread -o producer_consumer producer_consumer.c[A
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ [10P./producer_consumer     #baseline state test
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+Produced: A (Total produced: 1)
+Consumed: A
+Produced: B (Total produced: 2)
+Consumed: B
+Produced: C (Total produced: 3)
+Consumed: C
+Produced: D (Total produced: 4)
+Consumed: D
+Produced: E (Total produced: 5)
+Consumed: E
+Produced: F (Total produced: 6)
+Consumed: F
+Produced: G (Total produced: 7)
+Consumed: G
+Produced: H (Total produced: 8)
+Consumed: H
+Produced: I (Total produced: 9)
+Consumed: I
+Produced: J (Total produced: 10)
+Consumed: J
+Produced: K (Total produced: 11)
+Consumed: K
+Produced: L (Total produced: 12)
+Consumed: L
+Produced: M (Total produced: 13)
+Consumed: M
+Produced: N (Total produced: 14)
+Consumed: N
+Produced: O (Total produced: 15)
+Consumed: O
+Produced: P (Total produced: 16)
+Consumed: P
+Produced: Q (Total produced: 17)
+Consumed: Q
+Produced: R (Total produced: 18)
+Consumed: R
+Produced: S (Total produced: 19)
+Consumed: S
+Produced: T (Total produced: 20)
+Consumed: T
+20 items produced and consumed. Exiting program.
+
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ gcc -Wall -Wextra -O2 -pthread -o producer_consumer producer_consumer.c[A
+]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ ./producer_consumer   #buffer full test, usleep values [3P10000 300000 
+[?2004l
+Produced: A (Total produced: 1)
+Consumed: A
+Produced: B (Total produced: 2)
+Produced: C (Total produced: 3)
+Produced: D (Total produced: 4)
+Produced: E (Total produced: 5)
+Produced: F (Total produced: 6)
+Consumed: B
+Produced: G (Total produced: 7)
+Consumed: C
+Produced: H (Total produced: 8)
+Consumed: D
+Produced: I (Total produced: 9)
+Consumed: E
+Produced: J (Total produced: 10)
+Consumed: F
+Produced: K (Total produced: 11)
+Consumed: G
+Produced: L (Total produced: 12)
+Consumed: H
+Produced: M (Total produced: 13)
+Consumed: I
+Produced: N (Total produced: 14)
+Consumed: J
+Produced: O (Total produced: 15)
+Consumed: K
+Produced: P (Total produced: 16)
+Consumed: L
+Produced: Q (Total produced: 17)
+Consumed: M
+Produced: R (Total produced: 18)
+Consumed: N
+Produced: S (Total produced: 19)
+Consumed: O
+Produced: T (Total produced: 20)
+Consumed: P
+Consumed: Q
+Consumed: R
+Consumed: S
+Consumed: T
+20 items produced and consumed. Exiting program.
+[?2004h]0;seed@seedvm2004: ~/cs4440[01;32mseed@seedvm2004[00m:[01;34m~/cs4440[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-10-20 04:02:14+00:00 [COMMAND_EXIT_CODE="0"]
+
+
+
+
+
 Script started on 2025-10-19 00:22:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="196" LINES="48"]
 [?2004h]0;joshua@Ubuntu: ~/CS4440/project2[01;32mjoshua@Ubuntu[00m:[01;34m~/CS4440/project2[00m$ exit./mh 31
 [?2004l
